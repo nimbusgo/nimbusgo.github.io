@@ -1,0 +1,1536 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!--[if gte mso 9]>
+<style id="ol-styles">
+/* OUTLOOK-SPECIFIC STYLES */
+li {
+text-indent: -1em;
+padding: 0;
+margin: 0;
+line-height: 1.2;
+}
+ul, ol {
+padding: 0;
+margin: 0 0 0 40px;
+}
+p {
+margin: 0;
+padding: 0;
+margin-bottom: 0;
+}
+sup {
+font-size: 85% !important;
+}
+sub {
+font-size: 85% !important;
+}
+</style>
+<![endif]-->
+<style id="template-styles-head" data-premailer="ignore">
+.footer-main-width {
+width: 630px!important;
+max-width: 630px;
+}
+table {
+border-collapse: collapse;
+table-layout: fixed;
+}
+.bgimage {
+table-layout: auto;
+}
+.preheader-container {
+color: transparent;
+display: none;
+font-size: 1px;
+line-height: 1px;
+max-height: 0px;
+max-width: 0px;
+opacity: 0;
+overflow: hidden;
+}
+/* LIST AND p STYLE OVERRIDES */
+.editor-text p {
+margin: 0;
+padding: 0;
+margin-bottom: 0;
+}
+.editor-text ul,
+.editor-text ol {
+padding: 0;
+margin: 0 0 0 40px;
+}
+.editor-text li {
+padding: 0;
+margin: 0;
+line-height: 1.2;
+}
+/* ==================================================
+CLIENT/BROWSER SPECIFIC OVERRIDES
+================================================== */
+/* IE: correctly scale images with w/h attbs */
+img {
+-ms-interpolation-mode: bicubic;
+}
+/* Text Link Style Reset */
+a {
+text-decoration: underline;
+}
+/* iOS: Autolink styles inherited */
+a[x-apple-data-detectors] {
+text-decoration: underline !important;
+font-size: inherit !important;
+font-family: inherit !important;
+font-weight: inherit !important;
+line-height: inherit !important;
+color: inherit !important;
+}
+/* FF/Chrome: Smooth font rendering */
+.editor-text, .MainTextFullWidth {
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+/* Gmail/Web viewport fix */
+u + .body .template-body {
+width: 630px;
+}
+@media only screen and (max-width:480px) {
+u + .body .template-body {
+width: 100% !important;
+}
+}
+/* Office365/Outlook.com image reset */
+[office365] button, [office365] .divider-base div, [office365] .spacer-base div, [office365] .editor-image div { display: block !important; }
+</style>
+<style>@media only screen and (max-width:480px) {
+table {
+border-collapse: collapse;
+}
+.main-width {
+width: 100% !important;
+}
+.mobile-hidden {
+display: none !important;
+}
+td.OneColumnMobile {
+display: block !important;
+}
+.OneColumnMobile {
+width: 100% !important;
+}
+td.editor-col .editor-text {
+padding-left: 20px !important; padding-right: 20px !important;
+}
+td.editor-col .editor-image.editor-image-hspace-on td {
+padding-left: 20px !important; padding-right: 20px !important;
+}
+td.editor-col .editor-button-container {
+padding-left: 20px !important; padding-right: 20px !important;
+}
+td.editor-col .editor-social td {
+padding-left: 20px !important; padding-right: 20px !important;
+}
+td.editor-col .block-margin {
+padding-left: 20px !important; padding-right: 20px !important;
+}
+td.editor-col td.block-margin .editor-text {
+padding-left: 0px !important; padding-right: 0px !important;
+}
+td.editor-col td.block-margin .editor-image.editor-image-hspace-on td {
+padding-left: 0px !important; padding-right: 0px !important;
+}
+td.editor-col td.block-margin .editor-button-container {
+padding-left: 0px !important; padding-right: 0px !important;
+}
+td.editor-col td.block-margin .editor-social td {
+padding-left: 0px !important; padding-right: 0px !important;
+}
+.editor-button td > table tr > td {
+padding: 0px 0px 0px 0px !important;
+}
+.editor-button td > table tr > td td {
+padding: 15px 25px 15px 25px !important;
+}
+.layout {
+padding: 15px 9px 15px 9px !important;
+}
+.layout-container-border {
+padding: 0px 0px 0px 0px !important;
+}
+.layout-container {
+padding: 0px 0px 0px 0px !important;
+}
+.editor-image img {
+width: auto !important; margin-left: auto !important; margin-right: auto !important;
+}
+.editor-image .image-cell {
+padding-bottom: 15px !important;
+}
+.editor-text {
+font-size: 16px !important;
+}
+.section-headline-text {
+font-size: 24px !important;
+}
+.headline-text {
+font-size: 24px !important;
+}
+.subheadline-text {
+font-size: 20px !important;
+}
+.feature {
+padding-top: 0px !important; padding-bottom: 0px !important;
+}
+.layout-outer {
+padding: 0px 20px !important;
+}
+.feature-heading-text {
+font-size: 20px !important;
+}
+.feature-text {
+font-size: 16px !important;
+}
+.split.editor-col {
+margin-top: 0px !important;
+}
+.split.editor-col ~ .split.editor-col {
+margin-top: 10px !important;
+}
+.split-layout-margin {
+padding: 0px 20px !important;
+}
+.article {
+padding-top: 0px !important; padding-bottom: 0px !important;
+}
+.article-heading-text {
+font-size: 20px !important;
+}
+.article-text {
+font-size: 16px !important;
+}
+.social-container {
+text-align: center !important;
+}
+.social-text {
+font-size: 14px !important;
+}
+.cpn-heading-text {
+font-size: 28px !important;
+}
+.editor-cpn-heading-text {
+font-size: 28px !important;
+}
+td.col-divided .editor-col {
+border-right: 0px solid #C2B192 !important; border-bottom: 1px solid #C2B192 !important;
+}
+td.col-divided td.editor-col:last-of-type {
+border-bottom: 0 !important;
+}
+.col-divided {
+padding: 0 20px !important;
+}
+td.col-divided .editor-col .editor-text {
+padding-left: 0px !important; padding-right: 0px !important;
+}
+td.col-divided .editor-col .editor-image.editor-image-hspace-on td {
+padding-left: 0px !important; padding-right: 0px !important;
+}
+td.col-divided .editor-col .editor-button-container {
+padding-left: 0px !important; padding-right: 0px !important;
+}
+td.col-divided .editor-col .editor-social td {
+padding-left: 0px !important; padding-right: 0px !important;
+}
+td.col-divided .editor-col .block-margin {
+padding-left: 0px !important; padding-right: 0px !important;
+}
+.action-block .poll-answer {
+width: 100% !important; display: block !important;
+}
+.action-block .poll-button {
+width: 100% !important;
+}
+div.MobileFooter {
+font-size: 11px !important;
+}
+td.FooterMobile {
+padding: 0px 10px 0px 10px !important;
+}
+td.MainCenter {
+width: 100% !important;
+}
+table.MainSide {
+display: none !important;
+}
+img.MainSide {
+display: none !important;
+}
+td.MainSide {
+display: none !important;
+}
+.rsvp-button-inner {
+padding: 0px 0px 10px 0px !important;
+}
+.rsvp-button-outer {
+width: 100% !important; max-width: 100% !important;
+}
+.action-block .poll-answer {
+width: 100% !important; display: block !important;
+}
+.action-block .poll-button {
+width: 100% !important;
+}
+div.MobileFooter {
+font-size: 11px !important;
+}
+td.FooterMobile {
+padding: 0px 10px 0px 10px !important;
+}
+td.MainCenter {
+width: 100% !important;
+}
+table.MainSide {
+display: none !important;
+}
+img.MainSide {
+display: none !important;
+}
+td.MainSide {
+display: none !important;
+}
+.rsvp-button-inner {
+padding: 0px 0px 10px 0px !important;
+}
+.rsvp-button-outer {
+width: 100% !important; max-width: 100% !important;
+}
+.action-block .poll-answer {
+width: 100% !important; display: block !important;
+}
+.action-block .poll-button {
+width: 100% !important;
+}
+div.MobileFooter {
+font-size: 11px !important;
+}
+td.FooterMobile {
+padding: 0px 10px 0px 10px !important;
+}
+td.MainCenter {
+width: 100% !important;
+}
+table.MainSide {
+display: none !important;
+}
+img.MainSide {
+display: none !important;
+}
+td.MainSide {
+display: none !important;
+}
+.rsvp-button-inner {
+padding: 0px 0px 10px 0px !important;
+}
+.rsvp-button-outer {
+width: 100% !important; max-width: 100% !important;
+}
+.action-block .poll-answer {
+width: 100% !important; display: block !important;
+}
+.action-block .poll-button {
+width: 100% !important;
+}
+div.MobileFooter {
+font-size: 11px !important;
+}
+td.FooterMobile {
+padding: 0px 10px 0px 10px !important;
+}
+td.MainCenter {
+width: 100% !important;
+}
+table.MainSide {
+display: none !important;
+}
+img.MainSide {
+display: none !important;
+}
+td.MainSide {
+display: none !important;
+}
+.rsvp-button-inner {
+padding: 0px 0px 10px 0px !important;
+}
+.rsvp-button-outer {
+width: 100% !important; max-width: 100% !important;
+}
+.action-block .poll-answer {
+width: 100% !important; display: block !important;
+}
+.action-block .poll-button {
+width: 100% !important;
+}
+div.MobileFooter {
+font-size: 11px !important;
+}
+td.FooterMobile {
+padding: 0px 10px 0px 10px !important;
+}
+td.MainCenter {
+width: 100% !important;
+}
+table.MainSide {
+display: none !important;
+}
+img.MainSide {
+display: none !important;
+}
+td.MainSide {
+display: none !important;
+}
+.rsvp-button-inner {
+padding: 0px 0px 10px 0px !important;
+}
+.rsvp-button-outer {
+width: 100% !important; max-width: 100% !important;
+}
+.action-block .poll-answer {
+width: 100% !important; display: block !important;
+}
+.action-block .poll-button {
+width: 100% !important;
+}
+div.MobileFooter {
+font-size: 11px !important;
+}
+td.FooterMobile {
+padding: 0px 10px 0px 10px !important;
+}
+td.MainCenter {
+width: 100% !important;
+}
+table.MainSide {
+display: none !important;
+}
+img.MainSide {
+display: none !important;
+}
+td.MainSide {
+display: none !important;
+}
+.rsvp-button-inner {
+padding: 0px 0px 10px 0px !important;
+}
+.rsvp-button-outer {
+width: 100% !important; max-width: 100% !important;
+}
+.footer-main-width {
+width: 100% !important;
+}
+.footer-mobile-hidden {
+display: none !important;
+}
+.footer-mobile-hidden {
+display: none !important;
+}
+.footer-column {
+display: block !important;
+}
+.footer-mobile-stack {
+display: block !important;
+}
+.footer-mobile-stack-padding {
+padding-top: 3px;
+}
+}
+@media only screen and (max-width:320px) {
+.layout {
+padding: 0px 0px 0px 0px !important;
+}
+}
+@media screen {
+@font-face {
+font-family: ''; font-style: normal; font-weight: 400; src: local(''), local(''), url() format(''); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+}
+</style>
+</head>
+<body class="body" align="center" style="width: 100%; min-width: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; background-color: #FFFFFF; margin: 0px; padding: 0px;" bgcolor="#FFFFFF">
+<table class="template-body" border="0" cellpadding="0" cellspacing="0" style="text-align: center; min-width: 100%;" width="100%">
+<tr>
+<td class="preheader-container">
+<div>
+<div id="preheader" style="display: none; font-size: 1px; color: transparent; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
+<span data-entity-ref="preheader"></span>
+</div>
+<img src="http://r20.rs6.net/on.jsp?ca=85e1e277-044c-48a9-88c0-bd717b4680c4&a=1109427194134&c=50e2f590-dd6a-11e3-8282-d4ae528442b5&ch=51861360-dd6a-11e3-83d8-d4ae528442b5" / alt="">
+</div>
+</td>
+</tr>
+<tr>
+<td class="template-shell-container" align="center">
+<div class="bgcolor" style="background-color: #FFFFFF;">
+<table class="bgimage" width="100%" border="0" cellpadding="0" cellspacing="0" style="background-color: #FFFFFF;" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td align="center">
+<table class="main-width" width="630" align="center" border="0" cellpadding="0" cellspacing="0" style="width: 630px;">
+<tbody>
+<tr>
+<td class="layout" align="center" valign="top" style="padding: 15px 5px;">
+<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="layout-container-border" align="center" valign="top" style="background-color: #C2B192; padding: 0px;" bgcolor="#C2B192">
+<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="background-color: #C2B192;" bgcolor="#C2B192">
+<tbody>
+<tr>
+<td class="layout-container" align="center" valign="top" style="background-color: #FFFFFF; padding: 0;" bgcolor="#FFFFFF">
+<div class="">
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="galileo-ap-layout-editor" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class="content editor-col OneColumnMobile" width="100%" align="left" valign="top">
+<div class="gl-contains-image">
+<table class="editor-image logo-container editor-image-vspace-on" style="min-width: 100%;" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td align="center" valign="top" style="padding-top: 10px; padding-bottom: 10px;">
+<div class="publish-container">
+<a href="http://r20.rs6.net/tn.jsp?f=001jWqD6BY0ewjhr3skAN-z5YcDHHCmJ3OuX98mv58gNpJ2KTeDkWHFXVh_C3Ees3e4NZBqdQiokBFxNJiiDXqskugsb2BmzskA7AwMovd5hHgWWmaD-D__c0RAOBERO8XBZHOIQ6KqOvVm1hL3yEiGMVwoa_XaTF8K&c=BP91IyHTShvD4eZf17SrqATPsTbnxa_YzW2-69QwvAzItdoMikP4KA==&ch=aIUAr9fW_8Thcv03QT_bVgKWVOJXqqkPJC7wUe9IlQeYchCex_wJrQ==">
+<img alt="" class="" style="display: block; height: auto; max-width: 100%;" width="310" border="0" hspace="0" vspace="0" src="http://files.constantcontact.com/619830f4201/14e9e9e0-cbf6-400f-825b-3ea489122790.png">
+</a>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="galileo-ap-layout-editor" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class=" editor-col OneColumnMobile" width="100%" align="" valign="top">
+<div class="gl-contains-image">
+<table class="editor-image editor-image  editor-image-vspace-on" style="min-width: 100%;" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td align="center" valign="top" style="padding-top: 10px; padding-bottom: 10px;">
+<div class="publish-container">  <img alt="" class="" style="display: block; height: auto !important; max-width: 100% !important;" width="448" border="0" hspace="0" vspace="0" src="https://files.constantcontact.com/619830f4201/48e5fb48-5394-483d-b9e4-0aecf16c2a1a.jpg">
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="galileo-ap-layout-editor" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class="feature editor-col OneColumnMobile" width="100%" align="left" valign="top" style="background-color: #FFFFFF;" bgcolor="#FFFFFF">
+<div class="gl-contains-text">
+<table width="100%" style="min-width: 100%;" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="editor-text feature-text" align="left" valign="top" style="line-height: 1.5; font-family: Arial,Verdana,Helvetica,sans-serif; font-size: 16px; color: #ffffff; text-align: left; display: block; word-wrap: break-word; padding: 10px 20px;">
+<div></div>
+<div class="text-container galileo-ap-content-editor"><div>
+<div><br></div>
+<div><span style="color: rgb(44, 54, 58);">Dear Prema Yoga Family-</span></div>
+<div><br></div>
+<div><br></div>
+<div><span style="font-size: 16px; color: rgb(44, 54, 58);">We have somehow found ourselves well into November, gearing up for another Holiday Season. At our home studios in Brooklyn, we're headed into the darkest and coldest time of the year, a time typically of hibernation and introspection as we sync into the rhythms of nature. </span></div>
+<div><br></div>
+<div><span style="font-size: 16px; color: rgb(44, 54, 58);">Our yoga practice this month centers on Accountability. A cynical view on this time of year only sees hyper-consumerism and superficiality, but completely misses the ways we demonstrate care and love for each other through celebrations, rituals, and gift-giving. In this era of COVID-19, our Holiday celebrations and traditions are certainly not going to be the same as they have been in the past. We are being challenged and asked to adapt in ways we've never had to before. </span></div>
+<div><br></div>
+<div>
+<span style="font-size: 16px; color: rgb(44, 54, 58);">There is one particular tradition we at </span><a href="http://r20.rs6.net/tn.jsp?f=001jWqD6BY0ewjhr3skAN-z5YcDHHCmJ3OuX98mv58gNpJ2KTeDkWHFXbLSMKfWxmA-9o808jEoQT1jCCrb8Un5RAWA1kl6L9CchV1nhVeU18H3gDGNEWBPK3qk1o-bC22dx6h_Zc5qpAdEPFg_xiF4Tw==&c=BP91IyHTShvD4eZf17SrqATPsTbnxa_YzW2-69QwvAzItdoMikP4KA==&ch=aIUAr9fW_8Thcv03QT_bVgKWVOJXqqkPJC7wUe9IlQeYchCex_wJrQ==" rel="noopener noreferrer" target="_blank" style="font-size: 16px; color: rgb(94, 129, 202); font-weight: normal; font-style: normal; text-decoration: underline;">Prema Home</a><span style="font-size: 16px; color: rgb(44, 54, 58);"> are opting out of: Black Friday. This "tradition" is a naked product of consumerism, relies on exploiting resources and labor, and whips up a false frenzy around Holiday shopping. </span>
+</div>
+<div><br></div>
+<div><span style="font-size: 16px; color: rgb(44, 54, 58);">We want to extend our thanks to our Prema family beyond Black Friday and to make the season less stressful. </span></div>
+<div><br></div>
+<div><span style="font-size: 16px; color: rgb(44, 54, 58); font-style: italic; font-weight: bold;">Starting TONIGHT for our Prema family - Sun Nov 15th through Sunday Nov 22 - all qualifying purchases over $150 will automatically be 20% off (some exemptions apply). No code needed!</span></div>
+<div><br></div>
+<div>
+<span style="font-size: 16px; color: rgb(44, 54, 58);">If you're not planning to spend over $150 at one time, or are shopping beyond next week, you can still use code </span><span style="font-size: 16px; color: rgb(44, 54, 58); font-style: italic; font-weight: bold;">PREMAHOME for 10%</span><span style="font-size: 16px; color: rgb(44, 54, 58);"> off a purchase from our web store! </span><span style="font-size: 16px; color: rgb(44, 54, 58); font-style: italic;">This code only applies once per customer account, but if you've purchased in store or bought something online but didn't use the code, you can still use it!</span>
+</div>
+<div><br></div>
+<div>
+<a href="mailto:home@premayogabrooklyn.com" rel="noopener noreferrer" target="_blank" style="color: rgb(94, 129, 202); font-weight: normal; font-style: normal; text-decoration: underline;">Email</a><span style="color: rgb(44, 54, 58);"> us&#xa0;to inquire about care packages and group gifting; our team will thoughtfully collaborate with you to find the perfect combination for your needs and leave the rest to us! We will also be offering several "pre-mixed" gift boxes and care packages, if you'd rather leave the decisions up to us.</span>
+</div>
+<div><br></div>
+<div>
+<span style="font-size: 16px; color: rgb(44, 54, 58);">The products we sell are curated from amazing artists, mostly women owned businesses, many local to NYC. We are so appreciative of all the support this far to sustain neighborhood small business. Our Prema Home boutique has carried our 2 yoga studio spaces through thus far and we are so grateful. </span><span style="color: rgb(44, 54, 58);">A tradition we prefer to uphold is Small Business Saturday - through December expect collaborations with local businesses unique to Clinton Hill/Carroll Gardens, specials and more...Follow us on </span><a href="http://r20.rs6.net/tn.jsp?f=001jWqD6BY0ewjhr3skAN-z5YcDHHCmJ3OuX98mv58gNpJ2KTeDkWHFXa72X1s_e_bOGPFpFZGeGHRbU8CV4PIWhTBalFghqfIp7T3jT-V9cqHwtTqlqEY6jcuqYz_8odFGn1xoHRd-pkoCWfg4zTTYo3UUaaw6cZfvEixL6iBxXgQ=&c=BP91IyHTShvD4eZf17SrqATPsTbnxa_YzW2-69QwvAzItdoMikP4KA==&ch=aIUAr9fW_8Thcv03QT_bVgKWVOJXqqkPJC7wUe9IlQeYchCex_wJrQ==" rel="noopener noreferrer" target="_blank" style="color: rgb(94, 129, 202); font-weight: normal; font-style: normal; text-decoration: underline;">Instagram</a><span style="color: rgb(44, 54, 58);"> or watch your inbox for more details. We'll have socially distanced boutique hours, free chai with your shopping and even your favorite Prema teachers gift wrapping!</span>
+</div>
+<div><br></div>
+<div><br></div>
+<div><span style="font-size: 16px; color: rgb(44, 54, 58);">Accountability and gratitude both take practice, facing hard truths, and persistence. And yet accountability is not joyless, and gratitude is definitely not shallow. We hope that we can help you bring ethically made goods into your homes and into the lives of your loved ones this Holiday Season.</span></div>
+<div><br></div>
+<div>
+<span style="color: rgb(44, 54, 58);">A reminder that, along with our </span><a href="http://r20.rs6.net/tn.jsp?f=001jWqD6BY0ewjhr3skAN-z5YcDHHCmJ3OuX98mv58gNpJ2KTeDkWHFXTTkVau_4WHH7OKH0O9EEUI1Nlxy-uj4mdhROubLaImAa_1lIb-QPUuLAynR1nr3sjIe1sMV38HubwZYETPn24op3HTfGztkj4XT59hDQ9LNqUtX2dv9RR3tu_ef1RMN0A==&c=BP91IyHTShvD4eZf17SrqATPsTbnxa_YzW2-69QwvAzItdoMikP4KA==&ch=aIUAr9fW_8Thcv03QT_bVgKWVOJXqqkPJC7wUe9IlQeYchCex_wJrQ==" rel="noopener noreferrer" target="_blank" style="color: rgb(94, 129, 202); font-style: italic; font-weight: normal; text-decoration: underline;">Live Stream</a><span style="color: rgb(44, 54, 58);"> and </span><a href="http://r20.rs6.net/tn.jsp?f=001jWqD6BY0ewjhr3skAN-z5YcDHHCmJ3OuX98mv58gNpJ2KTeDkWHFXWQFx7ioO2cJCnOzftWNbsPuvrXrJkJf4O3ovXWL35yjoaqTOWLg17X06sZBBJIeAkiqtvFlFgHAlWTPvPF9Ebg1tsC9FaDsTjyskAL640d9Mtug5JBAjR4eDwl25Y2GKg==&c=BP91IyHTShvD4eZf17SrqATPsTbnxa_YzW2-69QwvAzItdoMikP4KA==&ch=aIUAr9fW_8Thcv03QT_bVgKWVOJXqqkPJC7wUe9IlQeYchCex_wJrQ==" rel="noopener noreferrer" target="_blank" style="color: rgb(94, 129, 202); font-style: italic; font-weight: normal; text-decoration: underline;">On Demand</a><span style="color: rgb(44, 54, 58);"> classes, we have a select schedule of </span><a href="http://r20.rs6.net/tn.jsp?f=001jWqD6BY0ewjhr3skAN-z5YcDHHCmJ3OuX98mv58gNpJ2KTeDkWHFXWQFx7ioO2cJfqCiHXLHAK-zE4ZpoaoAyYb0ChSNd8JGv47T9BhoKV3y40LU5gBB0zLTRDD4TtyP8KAtvmhvFBgzshtOOmcwLn-7Ew8R5BZ4dCFapKKJTPA=&c=BP91IyHTShvD4eZf17SrqATPsTbnxa_YzW2-69QwvAzItdoMikP4KA==&ch=aIUAr9fW_8Thcv03QT_bVgKWVOJXqqkPJC7wUe9IlQeYchCex_wJrQ==" rel="noopener noreferrer" target="_blank" style="color: rgb(94, 129, 202); font-style: italic; font-weight: normal; text-decoration: underline;">In Person Practice</a> <span style="color: rgb(44, 54, 58);">scheduled on a week-by-week basis at both studios. </span>
+</div>
+<div><br></div>
+<div><span style="color: rgb(44, 54, 58);">&#xfeff;Spots are limited and more will be added this week and next, after which, we will pause to track where we are in the city. Be sure you are checking BOTH locations: Court &amp; Fulton.</span></div>
+<div><br></div>
+<div><span style="color: rgb(0, 0, 0);">-------</span></div>
+<div><br></div>
+<div><span style="color: rgb(0, 0, 0);">See below for more workshops and events.</span></div>
+<div><br></div>
+<div><span style="color: rgb(0, 0, 0);">In service and love always...</span></div>
+<div><br></div>
+<div><span style="color: rgb(0, 0, 0);">Amanda &amp; the entire Prema Yoga Brooklyn team</span></div>
+<div><br></div>
+<div><br></div>
+<div>
+<span style="color: rgb(0, 0, 0); font-style: italic; font-weight: bold;">**Remember: If you cannot make any class or workshop live, register as usual and email us </span><a href="mailto:live@premayogabrooklyn.com" rel="noopener noreferrer" target="_blank" style="color: rgb(94, 129, 202); font-style: italic; font-weight: bold; text-decoration: underline;">live@premayogabrooklyn.com</a><span style="color: rgb(0, 0, 0); font-style: italic; font-weight: bold;"> and we will send you the recording good for 48 hours for classes, one week for workshops and 30 days for retreats!</span>
+</div>
+<div><br></div>
+<div><span style="color: rgb(0, 0, 0);">&#xfeff;</span></div>
+</div></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="galileo-ap-layout-editor" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class=" editor-col OneColumnMobile" width="100%" align="" valign="top">
+<div class="gl-contains-divider">
+<table class="editor-divider" width="100%" cellpadding="0" cellspacing="0" border="0" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class="" align="center" valign="top">
+<table width="100%" class="galileo-ap-content-editor" style="cursor: default; min-width: 100%;">
+<tbody>
+<tr>
+<td class="divider-base divider-solid" width="100%" align="center" valign="top" style="padding: 9px 0;">
+<table cellpadding="0" cellspacing="0" border="0" align="center" style="height: 1px; width: 94%; min-width: 94%;">
+<tbody>
+<tr>
+<td height="1" align="center" style="border-bottom-style: none; height: 1px; line-height: 1px; padding-bottom: 0px; background-color: #C2B192;" bgcolor="#C2B192">
+<div><img alt="" width="5" height="1" border="0" hspace="0" vspace="0" src="https://imgssl.constantcontact.com/letters/images/1101116784221/S.gif" style="display: block; height: 1px; width: 5px;"></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="galileo-ap-layout-editor" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class=" editor-col OneColumnMobile" width="100%" align="" valign="top">
+<div class="gl-contains-image">
+<table class="editor-image editor-image  editor-image-vspace-on" style="min-width: 100%;" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td align="center" valign="top" style="padding-top: 10px; padding-bottom: 10px;">
+<div class="publish-container">  <img alt="" class="" style="display: block; height: auto !important; max-width: 100% !important;" width="400" border="0" hspace="0" vspace="0" src="https://files.constantcontact.com/619830f4201/bcfabd0f-f21e-4b28-bd36-b57c2bd4c0f3.jpg">
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="galileo-ap-layout-editor" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class="feature editor-col OneColumnMobile" width="100%" align="left" valign="top" style="background-color: #FFFFFF;" bgcolor="#FFFFFF">
+<div class="gl-contains-text">
+<table width="100%" style="min-width: 100%;" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="editor-text feature-heading-text" align="left" valign="top" style="font-family: Arial,Verdana,Helvetica,sans-serif; font-size: 20px; color: #ffffff; text-align: left; display: block; word-wrap: break-word; line-height: 1.2; font-weight: bold; padding: 10px 20px;">
+<div></div>
+<div class="text-container galileo-ap-content-editor"><div><div style="text-align: center;" align="center"><span style="font-size: 28px; color: rgb(107, 107, 107);">A VEGAN THANKSGIVING</span></div></div></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gl-contains-text">
+<table width="100%" style="min-width: 100%;" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="editor-text feature-text" align="left" valign="top" style="line-height: 1.5; font-family: Arial,Verdana,Helvetica,sans-serif; font-size: 16px; color: #ffffff; text-align: left; display: block; word-wrap: break-word; padding: 10px 20px;">
+<div></div>
+<div class="text-container galileo-ap-content-editor"><div>
+<div style="text-align: center;" align="center"><span style="font-size: 16px; color: rgb(0, 0, 0); font-weight: bold;">WITH BOBBIE MARCHAND</span></div>
+<div style="text-align: center;" align="center"><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">As part of our Freedom Fridays, we free the turkey! </span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">Join Bobbie as you cook together a healthy,&#xa0;easy, Thanksgiving alternative. </span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">Grab a glass of your favorite drink and we'll enjoy a cozy fall evening - super casual, super chill!</span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">Menu items sent upon registration. All accessible, locally found. </span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">You can purchase on your own or pick up a curated recipe box from us the Thursday before class.</span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">ALL ARE WELCOME.</span></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">&#xfeff;</span></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69); font-style: italic; font-weight: bold;">Friday November 20th</span></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69); font-style: italic; font-weight: bold;">6pm</span></div>
+<div><br></div>
+<div><span style="color: rgb(67, 67, 69);">LIVE-STREAMING ON ZOOM</span></div>
+<div><br></div>
+<div><span style="color: rgb(0, 0, 0); font-style: italic;">If you can't make it live, you can register and all will receive a recording once the workshop has completed good for one week.</span></div>
+</div></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gl-contains-button">
+<table class="editor-button" width="100%" cellpadding="0" cellspacing="0" border="0" style="width: 100%; min-width: 100%;">
+<tbody>
+<tr>
+<td class="editor-button-container " style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; font-weight: bold; display: block; color: #FFFFFF; text-decoration: none; padding: 10px 20px;">
+<table class="galileo-ap-content-editor" style="width: 100%; min-width: 100%;">
+<tbody>
+<tr>
+<td align="left" valign="top" class="MainTextFullWidthTD" style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; font-weight: bold; display: block; color: #FFFFFF; text-decoration: none; padding: 0px;">
+<table border="0" cellpadding="0" cellspacing="0" style="width: initial; moz-border-radius: 0px; border-radius: 0px; border-spacing: 0; background-color: #C2B192; min-width: initial; padding: 0; border: none;" bgcolor="#C2B192">
+<tbody>
+<tr>
+<td align="center" valign="top" class="MainTextFullWidthTD" style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; font-weight: bold; display: block; color: #FFFFFF; text-decoration: none; padding: 15px 45px;">
+<div>
+<div class="MainTextFullWidth"><a href="http://r20.rs6.net/tn.jsp?f=001jWqD6BY0ewjhr3skAN-z5YcDHHCmJ3OuX98mv58gNpJ2KTeDkWHFXaitjOQSnP8rOgT3fpQb0N3MmM42rCSnDbAXtWMVQxeFux_IHYs-PYNOGjIDLUd6Ar32VowOlr7SrwJrMKzWSEoTMEeNcl0kBT-7D8v7nSVqN-K57Qcxd2dr0s63zm6wJcA4oNk2CQ5g3RcJdRFSUHgBivaSG5g_wIIj0mhARAl3NPpZxOC_mWw=&c=BP91IyHTShvD4eZf17SrqATPsTbnxa_YzW2-69QwvAzItdoMikP4KA==&ch=aIUAr9fW_8Thcv03QT_bVgKWVOJXqqkPJC7wUe9IlQeYchCex_wJrQ==" style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; font-weight: bold; display: block; color: #FFFFFF; text-decoration: none;">INFO &amp; TO REGISTER</a></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="galileo-ap-layout-editor" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class=" editor-col OneColumnMobile" width="100%" align="" valign="top">
+<div class="gl-contains-divider">
+<table class="editor-divider" width="100%" cellpadding="0" cellspacing="0" border="0" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class="" align="center" valign="top">
+<table width="100%" class="galileo-ap-content-editor" style="cursor: default; min-width: 100%;">
+<tbody>
+<tr>
+<td class="divider-base divider-solid" width="100%" align="center" valign="top" style="padding: 9px 0;">
+<table cellpadding="0" cellspacing="0" border="0" align="center" style="height: 1px; width: 94%; min-width: 94%;">
+<tbody>
+<tr>
+<td height="1" align="center" style="border-bottom-style: none; height: 1px; line-height: 1px; padding-bottom: 0px; background-color: #C2B192;" bgcolor="#C2B192">
+<div><img alt="" width="5" height="1" border="0" hspace="0" vspace="0" src="https://imgssl.constantcontact.com/letters/images/1101116784221/S.gif" style="display: block; height: 1px; width: 5px;"></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="galileo-ap-layout-editor" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class="feature editor-col OneColumnMobile" width="100%" align="left" valign="top" style="background-color: #FFFFFF;" bgcolor="#FFFFFF">
+<div class="gl-contains-image">
+<table class="editor-image  editor-image-vspace-on" style="min-width: 100%;" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td align="center" valign="top" style="padding-top: 10px; padding-bottom: 10px;">
+<div class="publish-container">  <img alt="" class="" style="display: block; height: auto !important; max-width: 100% !important;" width="431" border="0" hspace="0" vspace="0" src="https://files.constantcontact.com/619830f4201/bee2d43a-d4a3-40eb-b311-34786076c386.jpg">
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gl-contains-text">
+<table width="100%" style="min-width: 100%;" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="editor-text feature-heading-text" align="left" valign="top" style="font-family: Arial,Verdana,Helvetica,sans-serif; font-size: 20px; color: #ffffff; text-align: left; display: block; word-wrap: break-word; line-height: 1.2; font-weight: bold; padding: 10px 20px;">
+<div></div>
+<div class="text-container galileo-ap-content-editor"><div><div style="text-align: center;" align="center"><span style="font-size: 28px; color: rgb(107, 107, 107);">EMBODIED POETICS</span></div></div></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gl-contains-text">
+<table width="100%" style="min-width: 100%;" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="editor-text feature-text" align="left" valign="top" style="line-height: 1.5; font-family: Arial,Verdana,Helvetica,sans-serif; font-size: 16px; color: #ffffff; text-align: left; display: block; word-wrap: break-word; padding: 10px 20px;">
+<div></div>
+<div class="text-container galileo-ap-content-editor"><div>
+<div style="text-align: center;" align="center"><span style="font-size: 16px; color: rgb(0, 0, 0); font-weight: bold;">WITH AIMEE COX</span></div>
+<div style="text-align: center;" align="center"><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">What would it feel like to not only be moved by words but move with them?</span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">How does the way we experience our bodies in movement impact the way we express ourselves through the written word? </span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">Can we choreograph our words and narrate our bodies? </span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">We explore these questions and more in Embodied Poetics. Join Aimee for the last one of 2020!</span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">Reading, writing, meditating, and moving together in search of new ways of being. </span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">No previous experience in dance or writing needed. </span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">Just you, your glorious body, and a pen and pad. </span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">ALL ARE WELCOME.</span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">Last one of 2020!</span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69); font-style: italic; font-weight: bold;">Sunday November 22nd</span></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69); font-style: italic; font-weight: bold;">10am-11:30am</span></div>
+<div><br></div>
+<div><span style="color: rgb(67, 67, 69);">LIVE-STREAMING ON ZOOM</span></div>
+<div><br></div>
+<div><span style="color: rgb(0, 0, 0); font-style: italic;">If you can't make it live, you can register and all will receive a recording once the workshop has completed good for one week.</span></div>
+</div></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gl-contains-button">
+<table class="editor-button" width="100%" cellpadding="0" cellspacing="0" border="0" style="width: 100%; min-width: 100%;">
+<tbody>
+<tr>
+<td class="editor-button-container " style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; font-weight: bold; display: block; color: #FFFFFF; text-decoration: none; padding: 10px 20px;">
+<table class="galileo-ap-content-editor" style="width: 100%; min-width: 100%;">
+<tbody>
+<tr>
+<td align="left" valign="top" class="MainTextFullWidthTD" style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; font-weight: bold; display: block; color: #FFFFFF; text-decoration: none; padding: 0px;">
+<table border="0" cellpadding="0" cellspacing="0" style="width: initial; moz-border-radius: 0px; border-radius: 0px; border-spacing: 0; background-color: #C2B192; min-width: initial; padding: 0; border: none;" bgcolor="#C2B192">
+<tbody>
+<tr>
+<td align="center" valign="top" class="MainTextFullWidthTD" style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; font-weight: bold; display: block; color: #FFFFFF; text-decoration: none; padding: 15px 45px;">
+<div>
+<div class="MainTextFullWidth"><a href="http://r20.rs6.net/tn.jsp?f=001jWqD6BY0ewjhr3skAN-z5YcDHHCmJ3OuX98mv58gNpJ2KTeDkWHFXX8koyLKlA-ULdrF9Dip2wk4BFX1xSMmj4HQhiAVT8HMedr9PMb36EvQqTYk9QS0fpsa7m4tbhdJVZybt1Ww1HbhYmKGgfMHnmHsZLkRlmvtIKyzEYf79wrrtjTo3HfwMFqGI4ul9V5m&c=BP91IyHTShvD4eZf17SrqATPsTbnxa_YzW2-69QwvAzItdoMikP4KA==&ch=aIUAr9fW_8Thcv03QT_bVgKWVOJXqqkPJC7wUe9IlQeYchCex_wJrQ==" style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; font-weight: bold; display: block; color: #FFFFFF; text-decoration: none;">INFO &amp; TO REGISTER</a></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="galileo-ap-layout-editor" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class="feature editor-col OneColumnMobile" width="100%" align="left" valign="top" style="background-color: #FFFFFF;" bgcolor="#FFFFFF">
+<div class="gl-contains-image">
+<table class="editor-image  editor-image-vspace-on" style="min-width: 100%;" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td align="center" valign="top" style="padding-top: 10px; padding-bottom: 10px;">
+<div class="publish-container">  <img alt="" class="" style="display: block; height: auto !important; max-width: 100% !important;" width="431" border="0" hspace="0" vspace="0" src="https://files.constantcontact.com/619830f4201/e9a5cc3c-a437-4e8d-adc9-bf71923e38da.jpg">
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gl-contains-text">
+<table width="100%" style="min-width: 100%;" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="editor-text feature-heading-text" align="left" valign="top" style="font-family: Arial,Verdana,Helvetica,sans-serif; font-size: 20px; color: #ffffff; text-align: left; display: block; word-wrap: break-word; line-height: 1.2; font-weight: bold; padding: 10px 20px;">
+<div></div>
+<div class="text-container galileo-ap-content-editor"><div><div style="text-align: center;" align="center"><span style="font-size: 28px; color: rgb(107, 107, 107);">HEALTHIER HIPS</span></div></div></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gl-contains-text">
+<table width="100%" style="min-width: 100%;" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="editor-text feature-text" align="left" valign="top" style="line-height: 1.5; font-family: Arial,Verdana,Helvetica,sans-serif; font-size: 16px; color: #ffffff; text-align: left; display: block; word-wrap: break-word; padding: 10px 20px;">
+<div></div>
+<div class="text-container galileo-ap-content-editor"><div>
+<div style="text-align: center;" align="center"><span style="font-size: 16px; color: rgb(0, 0, 0); font-weight: bold;">WITH GRETCHEN WILLIAMS</span></div>
+<div style="text-align: center;" align="center"><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">During the first 10 years of the century, the total number of hip replacements more than doubled among adults between 45-54 years. That astounding trend will likely continue without a hard look into how we work with our hips within our own asana practice, regardless of age. </span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">More often than not, a yoga class features some sort of &#x201c;hip openers&#x201d; - shapes and poses which ask our hip joints to become more flexible and mobile, increasing our range of motion. Due to the lack of nerves within joint tissues, we may not even realize we&#x2019;re going too deep, and over time we wear and tear the precious joint cartilage, which doesn&#x2019;t grow back. The result is p painful bone spurs, or hip and knee replacements. </span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">As we work to become more flexible, we must cultivate strength and stability in and around the joints, keeping us safe and supported in all of our activities. </span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">In this workshop, we&#x2019;ll explore the anatomy of the hip system - the five bones (ischium, ilim, pubis, sacrum and two femur bones) and the five major joints that connect them (two hip joints, two sides of the sacroiliac (SI) joint, and the pubic symphysis). Understanding how they&#x2019;re inextricably connected with each other, and with the knee, will allow you to move in a more informed, safe way both on and off the mat. </span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">We&#x2019;ll prepare joint tissues and ligaments utilizing isometric drills, discuss common yoga cues which potentially compromise your hip and knee joints, and teach the nervous system how to safely explore functional range of motion. </span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">While we can&#x2019;t adjust our genetics and joint shape, we can become more aware of how our unique anatomy and movement patterns affect the health of our hips and knees. </span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69); font-style: italic;">Props:</span></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69); font-style: italic;"> 2 Yoga blocks</span></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69); font-style: italic;"> 2 blankets</span></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69); font-style: italic;"> Yoga bolster or 2 bed pillows Strap or belt </span></div>
+<div><br></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">ALL ARE WELCOME.</span></div>
+<div><br></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69); font-weight: bold; font-style: italic;">Friday November 27th</span></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69); font-weight: bold; font-style: italic;">6pm-8pm</span></div>
+<div><br></div>
+<div><span style="color: rgb(67, 67, 69);">LIVE-STREAMING ON ZOOM</span></div>
+<div><br></div>
+<div><span style="color: rgb(0, 0, 0); font-style: italic;">If you can't make it live, you can register and all will receive a recording once the workshop has completed good for one week.</span></div>
+</div></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gl-contains-button">
+<table class="editor-button" width="100%" cellpadding="0" cellspacing="0" border="0" style="width: 100%; min-width: 100%;">
+<tbody>
+<tr>
+<td class="editor-button-container " style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; font-weight: bold; display: block; color: #FFFFFF; text-decoration: none; padding: 10px 20px;">
+<table class="galileo-ap-content-editor" style="width: 100%; min-width: 100%;">
+<tbody>
+<tr>
+<td align="left" valign="top" class="MainTextFullWidthTD" style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; font-weight: bold; display: block; color: #FFFFFF; text-decoration: none; padding: 0px;">
+<table border="0" cellpadding="0" cellspacing="0" style="width: initial; moz-border-radius: 0px; border-radius: 0px; border-spacing: 0; background-color: #C2B192; min-width: initial; padding: 0; border: none;" bgcolor="#C2B192">
+<tbody>
+<tr>
+<td align="center" valign="top" class="MainTextFullWidthTD" style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; font-weight: bold; display: block; color: #FFFFFF; text-decoration: none; padding: 15px 45px;">
+<div>
+<div class="MainTextFullWidth"><a href="http://r20.rs6.net/tn.jsp?f=001jWqD6BY0ewjhr3skAN-z5YcDHHCmJ3OuX98mv58gNpJ2KTeDkWHFXdtWe5pTJTNO2eXLYoh4BQgok6oo1iSAnYZT4BmFHwSb-2Akg8x57UeQ1Y1azLLFq0iTs0Hm1-J9PNhOQJACZDx38tI6RIG9amfAB-vljAEVtz5fWvHV5ulN0_RDHVa1Zujb7mSrrWgX&c=BP91IyHTShvD4eZf17SrqATPsTbnxa_YzW2-69QwvAzItdoMikP4KA==&ch=aIUAr9fW_8Thcv03QT_bVgKWVOJXqqkPJC7wUe9IlQeYchCex_wJrQ==" style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; font-weight: bold; display: block; color: #FFFFFF; text-decoration: none;">INFO &amp; TO REGISTER</a></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="galileo-ap-layout-editor" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class="feature editor-col OneColumnMobile" width="100%" align="left" valign="top" style="background-color: #FFFFFF;" bgcolor="#FFFFFF">
+<div class="gl-contains-image">
+<table class="editor-image  editor-image-vspace-on" style="min-width: 100%;" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td align="center" valign="top" style="padding-top: 10px; padding-bottom: 10px;">
+<div class="publish-container">  <img alt="" class="" style="display: block; height: auto !important; max-width: 100% !important;" width="444" border="0" hspace="0" vspace="0" src="https://files.constantcontact.com/619830f4201/4cfc3767-1e49-4a1b-86ad-6c27ccbf337f.jpg">
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gl-contains-text">
+<table width="100%" style="min-width: 100%;" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="editor-text feature-heading-text" align="left" valign="top" style="font-family: Arial,Verdana,Helvetica,sans-serif; font-size: 20px; color: #ffffff; text-align: left; display: block; word-wrap: break-word; line-height: 1.2; font-weight: bold; padding: 10px 20px;">
+<div></div>
+<div class="text-container galileo-ap-content-editor"><div><div style="text-align: center;" align="center">
+<span style="color: rgb(76, 76, 76);">CALM: PRANAYAMA, QIGONG &amp; RESTORATIVE</span>C</div></div></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gl-contains-text">
+<table width="100%" style="min-width: 100%;" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="editor-text feature-text" align="left" valign="top" style="line-height: 1.5; font-family: Arial,Verdana,Helvetica,sans-serif; font-size: 16px; color: #ffffff; text-align: left; display: block; word-wrap: break-word; padding: 10px 20px;">
+<div></div>
+<div class="text-container galileo-ap-content-editor"><div>
+<div style="text-align: center;" align="center"><span style="font-size: 16px; color: rgb(0, 0, 0); font-weight: bold;">WITH ANNIE PIPER</span></div>
+<div style="text-align: center;" align="center"><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">Combining the forms of Breathe and Qigong into a beautiful blend designed to help you ease up and down regulate. This practice will be slow and meditative suitable for all levels and abilities. At a time where our senses are being over stimulated and overwhelmed, we invite you to spend time in spaciousness and subtlety.</span></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">Particularly helpful for managing stress, insomnia and anxiety.</span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">ALL ARE WELCOME.</span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">Last one of 2020!</span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69); font-style: italic; font-weight: bold;">Friday December 4th</span></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69); font-style: italic; font-weight: bold;">6pm-7:30pm</span></div>
+<div><br></div>
+<div><br></div>
+<div><span style="color: rgb(67, 67, 69);">LIVE-STREAMING ON ZOOM</span></div>
+<div><br></div>
+<div><span style="color: rgb(0, 0, 0); font-style: italic;">If you can't make it live, you can register and all will receive a recording once the workshop has completed good for one week.</span></div>
+</div></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gl-contains-button">
+<table class="editor-button" width="100%" cellpadding="0" cellspacing="0" border="0" style="width: 100%; min-width: 100%;">
+<tbody>
+<tr>
+<td class="editor-button-container " style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; font-weight: bold; display: block; color: #FFFFFF; text-decoration: none; padding: 10px 20px;">
+<table class="galileo-ap-content-editor" style="width: 100%; min-width: 100%;">
+<tbody>
+<tr>
+<td align="left" valign="top" class="MainTextFullWidthTD" style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; font-weight: bold; display: block; color: #FFFFFF; text-decoration: none; padding: 0px;">
+<table border="0" cellpadding="0" cellspacing="0" style="width: initial; moz-border-radius: 0px; border-radius: 0px; border-spacing: 0; background-color: #C2B192; min-width: initial; padding: 0; border: none;" bgcolor="#C2B192">
+<tbody>
+<tr>
+<td align="center" valign="top" class="MainTextFullWidthTD" style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; font-weight: bold; display: block; color: #FFFFFF; text-decoration: none; padding: 15px 45px;">
+<div>
+<div class="MainTextFullWidth"><a href="http://r20.rs6.net/tn.jsp?f=001jWqD6BY0ewjhr3skAN-z5YcDHHCmJ3OuX98mv58gNpJ2KTeDkWHFXRBZEWcOPl1zxDfPuDf4wc_eJ8w4IqvNyk74CiMspVcB1Rq8Hl4QG6BTiVrn2OzMCR3mf1ZLCe1WTeg6BnMDDI79ckb5OLOiDy28pa7sPA2uQJOrBQa2lK7YcjKgghHr3_JhYkECS5b9se9AL4DuYJzISrXy9_JuZjs1wymRFhyDgOraXuM8sYiLxFWpjqVjLg==&c=BP91IyHTShvD4eZf17SrqATPsTbnxa_YzW2-69QwvAzItdoMikP4KA==&ch=aIUAr9fW_8Thcv03QT_bVgKWVOJXqqkPJC7wUe9IlQeYchCex_wJrQ==" style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; font-weight: bold; display: block; color: #FFFFFF; text-decoration: none;">INFO &amp; TO REGISTER</a></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="galileo-ap-layout-editor" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class=" editor-col OneColumnMobile" width="100%" align="" valign="top">
+<div class="gl-contains-divider">
+<table class="editor-divider" width="100%" cellpadding="0" cellspacing="0" border="0" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class="" align="center" valign="top">
+<table width="100%" class="galileo-ap-content-editor" style="cursor: default; min-width: 100%;">
+<tbody>
+<tr>
+<td class="divider-base divider-solid" width="100%" align="center" valign="top" style="padding: 9px 0;">
+<table cellpadding="0" cellspacing="0" border="0" align="center" style="height: 1px; width: 94%; min-width: 94%;">
+<tbody>
+<tr>
+<td height="1" align="center" style="border-bottom-style: none; height: 1px; line-height: 1px; padding-bottom: 0px; background-color: #C2B192;" bgcolor="#C2B192">
+<div><img alt="" width="5" height="1" border="0" hspace="0" vspace="0" src="https://imgssl.constantcontact.com/letters/images/1101116784221/S.gif" style="display: block; height: 1px; width: 5px;"></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="galileo-ap-layout-editor" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class=" editor-col OneColumnMobile" width="100%" align="" valign="top">
+<div class="gl-contains-image">
+<table class="editor-image editor-image  editor-image-vspace-on" style="min-width: 100%;" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td align="center" valign="top" style="padding-top: 10px; padding-bottom: 10px;">
+<div class="publish-container">  <img alt="" class="" style="display: block; height: auto !important; max-width: 100% !important;" width="436" border="0" hspace="0" vspace="0" src="https://files.constantcontact.com/619830f4201/37314f86-4313-4b0f-b295-bc5b2de8ce03.jpg">
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="galileo-ap-layout-editor" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class="feature editor-col OneColumnMobile" width="100%" align="left" valign="top" style="background-color: #FFFFFF;" bgcolor="#FFFFFF">
+<div class="gl-contains-text">
+<table width="100%" style="min-width: 100%;" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="editor-text feature-heading-text" align="left" valign="top" style="font-family: Arial,Verdana,Helvetica,sans-serif; font-size: 20px; color: #ffffff; text-align: left; display: block; word-wrap: break-word; line-height: 1.2; font-weight: bold; padding: 10px 20px;">
+<div></div>
+<div class="text-container galileo-ap-content-editor"><div>
+<div style="text-align: center;" align="center"><br></div>
+<div style="text-align: center;" align="center"><span style="font-size: 28px; color: rgb(107, 107, 107);">THE EVOLUTION OF YOGA:</span></div>
+<div style="text-align: center;" align="center"><span style="font-size: 28px; color: rgb(107, 107, 107);">A 200 Hour Journey into the Practice</span></div>
+</div></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gl-contains-text">
+<table width="100%" style="min-width: 100%;" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="editor-text feature-text" align="left" valign="top" style="line-height: 1.5; font-family: Arial,Verdana,Helvetica,sans-serif; font-size: 16px; color: #ffffff; text-align: left; display: block; word-wrap: break-word; padding: 10px 20px;">
+<div></div>
+<div class="text-container galileo-ap-content-editor"><div>
+<div style="text-align: center;" align="center">LE<span style="color: rgb(0, 0, 0); font-weight: bold;">LED BY MARIA CUTRONA, BOBBIE MARCHAND &amp; AMANDA HARDING</span>
+</div>
+<div style="text-align: center;" align="center"><span style="color: rgb(0, 0, 0); font-weight: bold;">WITH AIMEE COX &amp; WILL DUNCAN</span></div>
+<div style="text-align: center;" align="center"><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">What does it mean to be a practitioner/teacher of yoga today?</span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">Join us on a path of deep inquiry, curiosity, and transformation.&#xa0;</span></div>
+<div><br></div>
+<div><span style="color: rgb(0, 0, 0);">We are beyond proud of the program we have put together with a faculty that is truly stellar, not just as teachers, but as human beings. It is an honor and privilege to have the means to reexamine these teachings, put them into present day practice where it counts and work together to bring them into action. </span></div>
+<div><br></div>
+<div>
+<span style="color: rgb(0, 0, 0);">As part of this year's immersion, we are offering </span><span style="color: rgb(0, 0, 0); font-weight: bold; font-style: italic;">2 Full Scholarships for BIPOC</span><span style="color: rgb(0, 0, 0);"> accepted applicants, though, we need YOUR help so that we can support this initiative. We are accepting </span><a href="http://r20.rs6.net/tn.jsp?f=001jWqD6BY0ewjhr3skAN-z5YcDHHCmJ3OuX98mv58gNpJ2KTeDkWHFXZb_mEkvNj_TpvI3BtFJde_ORYjI49aK-dthgMslW0uPfbLrrwtk2cx304AjSV4Ie9vtTGyg9IYp4wk20tLPeeLaJvFwHxorE0lIHRiM2Fjm4Nhp2Kf8TODGwXQq0rSKrA==&c=BP91IyHTShvD4eZf17SrqATPsTbnxa_YzW2-69QwvAzItdoMikP4KA==&ch=aIUAr9fW_8Thcv03QT_bVgKWVOJXqqkPJC7wUe9IlQeYchCex_wJrQ==" rel="noopener noreferrer" target="_blank" style="color: rgb(94, 129, 202); font-weight: normal; font-style: normal; text-decoration: underline;">donations</a><span style="color: rgb(0, 0, 0);"> up to $5000 so that we may give these 2 candidates a full rather than partial admission. Any amount we would be beyond grateful for. There is no amount too small. Upon receipt, we can send you a letter confirming your donation for your records. We will stop accepting donations once we reach our goal and, should we not reach our goal, we pledge to subsidize the remainder so that the scholarships are received no matter what.</span>
+</div>
+<div><br></div>
+<div>
+<span style="color: rgb(0, 0, 0);">Please </span><a href="mailto:info@premayogabrooklyn.com" rel="noopener noreferrer" target="_blank" style="color: rgb(94, 129, 202); font-weight: normal; font-style: normal; text-decoration: underline;">email</a><span style="color: rgb(0, 0, 0);"> with any questions!</span>
+</div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">Topics Covered Include:</span></div>
+<div><br></div>
+<ul>
+<li style="font-size: 17px; color: rgb(67, 67, 69);"><span style="font-size: 17px; color: rgb(67, 67, 69);">Asana &amp; Anatomy&#xa0;</span></li>
+<li style="font-size: 17px; color: rgb(67, 67, 69);"><span style="font-size: 17px; color: rgb(67, 67, 69);">Philosophy &amp; Meditation&#xa0;</span></li>
+<li style="font-size: 17px; color: rgb(67, 67, 69);"><span style="font-size: 17px; color: rgb(67, 67, 69);">Energetic Body &amp; Somatics&#xa0;</span></li>
+<li style="font-size: 17px; color: rgb(67, 67, 69);"><span style="font-size: 17px; color: rgb(67, 67, 69);">Service &amp; Social Justice&#xa0;</span></li>
+<li style="font-size: 17px; color: rgb(67, 67, 69);"><span style="font-size: 17px; color: rgb(67, 67, 69);">Creativity &amp; Expression&#xa0;</span></li>
+<li style="font-size: 17px; color: rgb(67, 67, 69);"><span style="font-size: 17px; color: rgb(67, 67, 69);">Mentorship on the Journey&#xa0;</span></li>
+</ul>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69); font-style: italic; font-weight: bold;">December 2020 -&#xa0;May 2021</span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69); font-style: italic; font-weight: bold;">Immersion Track Only:</span></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">$1900 Early Bird (extended through next week!)</span></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">$2100 </span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69); font-style: italic; font-weight: bold;">Immersion &amp; Teacher Track:</span></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">$2500 Early Bird (extended through next week!)</span></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">$2700 </span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">Includes 30 Live PYB classes through Zoom throughout the course of the training</span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">This training contains 2 tracks:</span></div>
+<div><br></div>
+<ul><li style="font-size: 17px; color: rgb(67, 67, 69);"><span style="font-size: 17px; color: rgb(67, 67, 69);">Immersion Track: 10 weekends of Saturdays/Sundays, 2 Friday nights.</span></li></ul>
+<div><br></div>
+<ul><li style="font-size: 17px; color: rgb(67, 67, 69);"><span style="font-size: 17px; color: rgb(67, 67, 69);">Immersion Plus Teacher Track: 11 weekends of Saturdays/Sundays, 8 Friday nights.</span></li></ul>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">While both tracks will contain teaching principles and overlap, the teacher track will dive into more specific content designed for those who know they would like to teach. </span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">You may decide to add the Teacher track at any time before January.</span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">All sessions will be recorded as we know Zoom fatigue is real! </span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">If you cannot make it live, you can still fulfill the curriculum at your pace, however 50% of the immersion must be attended Live on Zoom.</span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69); font-style: italic;">**Depending on lifting on gathering restrictions, there may be options to be hybrid in person/virtual.</span></div>
+<div><br></div>
+<div><span style="font-size: 17px; color: rgb(67, 67, 69);">Select reading list, detailed syllabus, to follow enrollment.</span></div>
+<div><br></div>
+<div>
+<span style="font-size: 17px; color: rgb(67, 67, 69);">Email&#xa0;</span><a href="mailto:amanda@premayogabrooklyn.com" rel="noopener noreferrer" target="_blank" style="font-size: 17px; color: rgb(94, 129, 202); text-decoration: none; font-weight: normal; font-style: normal;">Amanda Harding</a><span style="font-size: 17px; color: rgb(67, 67, 69);">&#xa0;for application and to answer any questions!</span>
+</div>
+</div></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="galileo-ap-layout-editor" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class=" editor-col OneColumnMobile" width="100%" align="" valign="top">
+<div class="gl-contains-divider">
+<table class="editor-divider" width="100%" cellpadding="0" cellspacing="0" border="0" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class="" align="center" valign="top">
+<table width="100%" class="galileo-ap-content-editor" style="cursor: default; min-width: 100%;">
+<tbody>
+<tr>
+<td class="divider-base divider-solid" width="100%" align="center" valign="top" style="padding: 20px 0px;">
+<table cellpadding="0" cellspacing="0" border="0" align="center" style="width: 100%; min-width: 100%; height: 1px;">
+<tbody>
+<tr>
+<td height="1" align="center" style="background-color: rgb(194, 188, 184); padding-bottom: 0px; border-bottom-style: none; height: 1px; line-height: 1px;" bgcolor="C2BCB8">
+<div><img alt="" width="5" height="1" border="0" hspace="0" vspace="0" src="https://imgssl.constantcontact.com/letters/images/1101116784221/S.gif" style="display: block; height: 1px; width: 5px;"></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="galileo-ap-layout-editor" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class=" editor-col OneColumnMobile" width="34%" align="" valign="top">
+<div><div class="column-resize-bar">
+<span class="line"></span>
+<span class="grabber"></span>
+</div></div>
+<div class="gl-contains-button">
+<table class="editor-button" width="100%" cellpadding="0" cellspacing="0" border="0" style="width: 100%; min-width: 100%;">
+<tbody>
+<tr>
+<td class="editor-button-container " style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; font-weight: bold; display: block; color: #FFFFFF; text-decoration: none; padding: 10px 0px 10px 20px;">
+<table class="galileo-ap-content-editor" style="width: 100%; min-width: 100%;">
+<tbody>
+<tr>
+<td align="left" valign="top" class="MainTextFullWidthTD" style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; font-weight: bold; display: block; color: #FFFFFF; text-decoration: none; padding: 0px;">
+<table border="0" cellpadding="0" cellspacing="0" style="background-color: rgb(235, 221, 221); width: initial; moz-border-radius: 0px; border-radius: 0px; border-spacing: 0; min-width: initial; padding: 0; border: none;" bgcolor="EBDDDD">
+<tbody>
+<tr>
+<td align="center" valign="top" class="MainTextFullWidthTD" style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; font-weight: bold; display: block; color: #FFFFFF; text-decoration: none; padding: 15px 45px;">
+<div>
+<div class="MainTextFullWidth"><a href="http://r20.rs6.net/tn.jsp?f=001jWqD6BY0ewjhr3skAN-z5YcDHHCmJ3OuX98mv58gNpJ2KTeDkWHFXRBZEWcOPl1zALnxecstpTSQrqJmjarvB9Kh932ev_uQakAunOh4ydSNNM2SWZyiJkJiiAX9Ym9lJoztxl85K-H84qAcDsbHXQ==&c=BP91IyHTShvD4eZf17SrqATPsTbnxa_YzW2-69QwvAzItdoMikP4KA==&ch=aIUAr9fW_8Thcv03QT_bVgKWVOJXqqkPJC7wUe9IlQeYchCex_wJrQ==" style="color: rgb(67, 67, 69); font-size: 16px; font-family: Arial, Verdana, Helvetica, sans-serif; font-weight: bold; display: block; text-decoration: none;">PREMA TV</a></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+<td class=" editor-col OneColumnMobile" width="33%" align="" valign="top">
+<div><div class="column-resize-bar">
+<span class="line"></span>
+<span class="grabber"></span>
+</div></div>
+<div class="gl-contains-button">
+<table class="editor-button" width="100%" cellpadding="0" cellspacing="0" border="0" style="width: 100%; min-width: 100%;">
+<tbody>
+<tr>
+<td class="editor-button-container " style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; font-weight: bold; display: block; color: #FFFFFF; text-decoration: none; padding: 10px;">
+<table class="galileo-ap-content-editor" style="width: 100%; min-width: 100%;">
+<tbody>
+<tr>
+<td align="center" valign="top" class="MainTextFullWidthTD" style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; font-weight: bold; display: block; color: #FFFFFF; text-decoration: none; padding: 0px;">
+<table border="0" cellpadding="0" cellspacing="0" style="background-color: rgb(235, 221, 221); width: initial; moz-border-radius: 0px; border-radius: 0px; border-spacing: 0; min-width: initial; padding: 0; border: none;" bgcolor="EBDDDD">
+<tbody>
+<tr>
+<td align="center" valign="top" class="MainTextFullWidthTD" style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; font-weight: bold; display: block; color: #FFFFFF; text-decoration: none; padding: 15px 45px;">
+<div>
+<div class="MainTextFullWidth"><a href="http://r20.rs6.net/tn.jsp?f=001jWqD6BY0ewjhr3skAN-z5YcDHHCmJ3OuX98mv58gNpJ2KTeDkWHFXTTkVau_4WHH7OKH0O9EEUI1Nlxy-uj4mdhROubLaImAa_1lIb-QPUuLAynR1nr3sjIe1sMV38HubwZYETPn24op3HTfGztkj4XT59hDQ9LNqUtX2dv9RR3tu_ef1RMN0A==&c=BP91IyHTShvD4eZf17SrqATPsTbnxa_YzW2-69QwvAzItdoMikP4KA==&ch=aIUAr9fW_8Thcv03QT_bVgKWVOJXqqkPJC7wUe9IlQeYchCex_wJrQ==" style="color: rgb(67, 67, 69); font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; font-weight: bold; display: block; text-decoration: none;">CLASSES</a></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+<td class=" editor-col OneColumnMobile" width="33%" align="" valign="top">
+<div class="gl-contains-button">
+<table class="editor-button" width="100%" cellpadding="0" cellspacing="0" border="0" style="width: 100%; min-width: 100%;">
+<tbody>
+<tr>
+<td class="editor-button-container editor-button-container " style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; font-weight: bold; display: block; color: #FFFFFF; text-decoration: none; padding: 10px 20px 10px 0px;">
+<table class="galileo-ap-content-editor" style="width: 100%; min-width: 100%;">
+<tbody>
+<tr>
+<td align="left" valign="top" class="MainTextFullWidthTD" style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; font-weight: bold; display: block; color: #FFFFFF; text-decoration: none; padding: 0px;">
+<table border="0" cellpadding="0" cellspacing="0" style="background-color: rgb(235, 221, 221); width: initial; moz-border-radius: 0px; border-radius: 0px; border-spacing: 0; min-width: initial; padding: 0; border: none;" bgcolor="EBDDDD">
+<tbody>
+<tr>
+<td align="center" valign="top" class="MainTextFullWidthTD" style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; font-weight: bold; display: block; color: #FFFFFF; text-decoration: none; padding: 15px 45px;">
+<div>
+<div class="MainTextFullWidth"><a href="http://r20.rs6.net/tn.jsp?f=001jWqD6BY0ewjhr3skAN-z5YcDHHCmJ3OuX98mv58gNpJ2KTeDkWHFXeJGYKGbbcFuyqiRDfu9g6ygoGyOSVEEKk5AeMohTyoZhv3_2Y0et6qdlGebufmF5ZSZ2-WBxDyomkwUtKT3XdvO6rOPx6fbBh3DXoY8KFHvNHhUKutl3PQ=&c=BP91IyHTShvD4eZf17SrqATPsTbnxa_YzW2-69QwvAzItdoMikP4KA==&ch=aIUAr9fW_8Thcv03QT_bVgKWVOJXqqkPJC7wUe9IlQeYchCex_wJrQ==" style="color: rgb(67, 67, 69); font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; font-weight: bold; display: block; text-decoration: none;">BOUTIQUE</a></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="galileo-ap-layout-editor" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class="social editor-col OneColumnMobile" width="100%" align="left" valign="top" style="background-color: #FFFFFF;" bgcolor="#FFFFFF">
+<div class="gl-contains-spacer">
+<table class="editor-spacer" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="spacer-container" align="center" valign="top">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="spacer-base" style="padding-bottom: 10px; height: 1px; line-height: 1px;" width="100%" align="center" valign="top">
+<div><img alt="" width="5" height="1" border="0" hspace="0" vspace="0" src="https://imgssl.constantcontact.com/letters/images/sys/S.gif" style="display: block; height: 1px; width: 5px;"></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gl-contains-social-button">
+<table class="editor-social" width="100%" cellpadding="0" cellspacing="0" border="0" style="width: 100%; min-width: 100%;">
+<tbody>
+<tr>
+<td class=" social-container social-container" align="center" style="padding: 0px 20px 10px;">
+<div class="galileo-ap-content-editor">
+<a href="http://r20.rs6.net/tn.jsp?f=001jWqD6BY0ewjhr3skAN-z5YcDHHCmJ3OuX98mv58gNpJ2KTeDkWHFXVh_C3Ees3e41vH2mZPfvwgfUy3hiI1MOh15IYGnE_r2AA0NXG3-Cg6LPYGp0YqRpKIovrslwchzClfIFLgp6BX3vRQZ5VW3UDEN31FR-C_dGejd6ESHO7I=&c=BP91IyHTShvD4eZf17SrqATPsTbnxa_YzW2-69QwvAzItdoMikP4KA==&ch=aIUAr9fW_8Thcv03QT_bVgKWVOJXqqkPJC7wUe9IlQeYchCex_wJrQ==" style="display: inline-block; text-decoration: none;">
+<img alt="Facebook" width="32" border="0" src="https://imgssl.constantcontact.com/galileo/images/templates/Galileo-SocialMedia/facebook-visit-black-circle.png" style="display: inline-block; margin: 0; padding: 0;"> &#x200c;
+</a>
+<a href="http://r20.rs6.net/tn.jsp?f=001jWqD6BY0ewjhr3skAN-z5YcDHHCmJ3OuX98mv58gNpJ2KTeDkWHFXa72X1s_e_bOGPFpFZGeGHRbU8CV4PIWhTBalFghqfIp7T3jT-V9cqHwtTqlqEY6jcuqYz_8odFGn1xoHRd-pkoCWfg4zTTYo3UUaaw6cZfvEixL6iBxXgQ=&c=BP91IyHTShvD4eZf17SrqATPsTbnxa_YzW2-69QwvAzItdoMikP4KA==&ch=aIUAr9fW_8Thcv03QT_bVgKWVOJXqqkPJC7wUe9IlQeYchCex_wJrQ==" style="display: inline-block; text-decoration: none;">
+<img alt="Instagram" width="32" border="0" src="https://imgssl.constantcontact.com/galileo/images/templates/Galileo-SocialMedia/instagram-visit-black-circle.png" style="display: inline-block; margin: 0; padding: 0;"> &#x200c;
+</a>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gl-contains-divider">
+<table class="editor-divider" width="100%" cellpadding="0" cellspacing="0" border="0" style="min-width: 100%;">
+<tbody>
+<tr>
+<td class="" align="center" valign="top">
+<table width="100%" class="galileo-ap-content-editor" style="cursor: default; min-width: 100%;">
+<tbody>
+<tr>
+<td class="divider-base divider-solid" width="100%" align="center" valign="top" style="padding: 30px 0px 10px;">
+<table cellpadding="0" cellspacing="0" border="0" align="center" style="width: 100%; min-width: 100%; height: 1px;">
+<tbody>
+<tr>
+<td height="1" align="center" style="padding-bottom: 0px; border-bottom-style: none; height: 1px; line-height: 1px; background-color: #C2B192;" bgcolor="#C2B192">
+<div><img alt="" width="5" height="1" border="0" hspace="0" vspace="0" src="https://imgssl.constantcontact.com/letters/images/1101116784221/S.gif" style="display: block; height: 1px; width: 5px;"></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</table>
+<table class="footer-container" width="100%" cellpadding="0" cellspacing="0" border="0" style="background: #ffffff; margin-left: auto; margin-right: auto; table-layout: auto !important" bgcolor="#ffffff">
+  <tr>
+    <td width="100%" align="center" valign="top" style="width: 100%;">
+      <div class="footer-max-main-width" align="center" style="margin-left: auto; margin-right: auto; max-width: 100%;">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td class="footer-layout" align="center" valign="top" style="padding: 16px 0px;">
+              <table class="footer-main-width" style="width: 580px;" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td class="footer-text" align="center" valign="top" style="color: #5d5d5d; font-family: Verdana,Geneva,sans-serif; font-size: 12px; padding: 4px 0px;">
+                    
+                    <span class="footer-column">Prema Yoga Brooklyn<span class="footer-mobile-hidden"> | </span></span><span class="footer-column">498 Court Street<span class="footer-mobile-hidden">, </span></span><span class="footer-column"></span><span class="footer-column"></span><span class="footer-column">Brooklyn, NY 11231</span><span class="footer-column"></span>
+                    
+                  </td>
+                </tr>
+                <tr>
+                  <td class="footer-row" align="center" valign="top" style="padding: 10px 0px;">
+                    <table cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td class="footer-text" align="center" valign="top" style="color: #5d5d5d; font-family: Verdana,Geneva,sans-serif; font-size: 12px; padding: 4px 0px;">
+                          <a href="https://visitor.constantcontact.com/do?p=un&m=001wfggpd5ojUkRyMQcnSqldw%3D&ch=51861360-dd6a-11e3-83d8-d4ae528442b5&ca=85e1e277-044c-48a9-88c0-bd717b4680c4" style="color: #5d5d5d">Unsubscribe jana.cavnar@gmail.com</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="footer-text" align="center" valign="top" style="color: #5d5d5d; font-family: Verdana,Geneva,sans-serif; font-size: 12px; padding: 4px 0px;">
+                          <a href="https://visitor.constantcontact.com/do?p=oo&m=001wfggpd5ojUkRyMQcnSqldw%3D&ch=51861360-dd6a-11e3-83d8-d4ae528442b5&ca=85e1e277-044c-48a9-88c0-bd717b4680c4" style="color: #5d5d5d">Update Profile</a> |
+                          
+                          <a class="footer-about-provider" href="http://www.constantcontact.com/legal/service-provider?cc=about-service-provider" style="color: #5d5d5d">About our service provider</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="footer-text" align="center" valign="top" style="color: #5d5d5d; font-family: Verdana,Geneva,sans-serif; font-size: 12px; padding: 4px 0px;">
+                          Sent by
+                          
+                          <a href="mailto:info@premayogabrooklyn.com" style="color: #5d5d5d; text-decoration: none">info@premayogabrooklyn.com</a>
+                          
+
+                          
+                          
+                          <span class="footer-column">powered by</span>
+                          
+                          
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="footer-text" align="center" valign="top" style="color: #5d5d5d; font-family: Verdana,Geneva,sans-serif; font-size: 12px; padding: 4px 0px;">
+                    
+                    
+                    <a href="http://www.constantcontact.com/index.jsp?cc=nge&rmc=VF19_3GE" style="color: #5d5d5d; text-decoration: none">
+                    <img alt="Trusted Email from Constant Contact - Try it FREE today." width="160" border="0" hspace="0" vspace="0" src="https://static.ctctcdn.com/letters/images/CTCTFooter/Logo_Blue_Orange.png">
+                    </a>
+                    <div class="footer-cta-text" style="color: #5d5d5d; font-family: Verdana,Geneva,sans-serif; font-size: 9px; line-height: 2">
+                    <a href="http://www.constantcontact.com/index.jsp?cc=nge&rmc=VF19_3GE" style="color: #5d5d5d; text-decoration: none">Try email marketing for free today!</a>
+                    </div>
+                    
+                    
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </td>
+  </tr>
+</table></body>
+</html>

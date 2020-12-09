@@ -1,0 +1,559 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+      .fadein {
+        animation: fadein 2s;
+        -moz-animation: fadein 2s;
+        -webkit-animation: fadein 2s;
+        -o-animation: fadein 2s;
+      }
+      @keyframes fadein {
+          0% {opacity: 0;transform: translateY(-30px);}
+          50% {opacity: 0;transform: translateY(-30px);}
+          100% {opacity: 1;transform: translateY(0);}
+      }
+      @-moz-keyframes fadein {
+          0% {opacity: 0;transform: translateY(-30px);}
+          50% {opacity: 0;transform: translateY(-30px);}
+          100% {opacity: 1;transform: translateY(0);}
+      }
+      @-webkit-keyframes fadein {
+         0% {opacity: 0;transform: translateY(-30px);}
+         50% {opacity: 0;transform: translateY(-30px);}
+         100% {opacity: 1;transform: translateY(0);}
+      }
+      @-o-keyframes fadein {
+          0% {opacity: 0;transform: translateY(-30px);}
+          50% {opacity: 0;transform: translateY(-30px);}
+          100% {opacity: 1;transform: translateY(0);}
+      }
+      ReadMsgBody{
+        width: 100%;
+      }
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+        line-height: 100%;
+      }
+      body {
+        -webkit-text-size-adjust:100%;
+        -ms-text-size-adjust:100%;
+        margin:0 !important;
+      }
+      p {
+        margin: 1em 0;
+      }
+      table td {
+        border-collapse: collapse;
+      }
+      img {
+        outline:0;
+      }
+      a img {
+        border:none;
+      }
+      p {
+        margin: 1em 0;
+      }
+      @-ms-viewport{
+        width: device-width;
+      }
+      @media only screen and (max-width: 480px) {
+        body[yahoo] .container {
+          width:100% !important;
+        }
+        body[yahoo] .footer {
+          width:auto !important;
+          margin-left:0;
+        }
+        body[yahoo] .content-padding{
+          padding:4px !important;
+        }
+        body[yahoo] .mobile-hidden {
+          display:none !important;
+        }
+        body[yahoo] .logo {
+          display:block !important;
+          padding:0 !important;
+        }
+        body[yahoo] img {
+          max-width:100% !important;
+          height:auto !important;
+          max-height:auto !important;
+        }
+        body[yahoo] .header img{
+          max-width:100% !important;
+          height:auto !important;
+          max-height:auto !important;
+          margin: 0 auto;
+        }
+        body[yahoo] .photo img {
+          width:100% !important;
+          max-width:100% !important;
+          height:auto !important;
+        }
+        body[yahoo] .drop {
+          display:block !important;
+          width: 100% !important;
+          float:left;
+          clear:both;
+        }
+        body[yahoo] .footerlogo {
+          display:block !important;
+          width: 100% !important;
+          padding-top:15px;
+          float:left;
+          clear:both;
+        }
+        body[yahoo] .nav4, body[yahoo] .nav5, body[yahoo] .nav6 {
+          display: none !important;
+        }
+        body[yahoo] .tableBlock {
+          width:100% !important;
+        }
+        body[yahoo] .responsive-td {
+          width:100% !important;
+          float:left !important;
+          padding:0 !important;
+        }
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        /* MOBILE GLOBAL STYLES - DO NOT CHANGE */
+        body {
+          padding: 0px !important;
+          font-size: 16px !important;
+          line-height: 150% !important;
+        }
+        h1 {
+          font-size: 22px !important;
+          line-height: normal !important;
+        }
+        h2 {
+          font-size: 20px !important;
+          line-height: normal !important;
+        }
+        h3 {
+          font-size: 18px !important;
+          line-height: normal !important;
+        }
+        .buttonstyles {
+          font-family:arial,helvetica,sans-serif !important;
+          font-size: 16px !important;
+          color: #FFFFFF !important;
+          padding: 10px !important;
+        }
+      }
+      /* END OF MOBILE GLOBAL STYLES - DO NOT CHANGE */   
+      @media only screen and (max-width: 600px) {
+        td[class=m_3008798207356470876responsive-td] {
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+          display:block !important;
+          width:100% !important;
+        }
+        body[yahoo] .container {
+          width:100% !important;
+        }
+        body[yahoo] .mobile-hidden {
+          display:none !important;
+        }
+        body[yahoo] .logo {
+          display:block !important;
+          padding:0 !important;
+        }
+        body[yahoo] .photo img {
+          width:100% !important;
+          height:auto !important;
+        }
+        body[yahoo] .nav5, body[yahoo] .nav6 {
+          display: none !important;
+        }
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .img-wide{
+         width:100% !important;
+         height:auto !important;
+        }
+        .table-holder{display:table !important; width:100% !important;}
+        .tcap{display:table-caption !important; width:100% !important;}
+        .thead{display:table-header-group !important; width:100% !important;}
+        .trow{display:table-row !important; width:100% !important;}
+        .tfoot{display:table-footer-group !important; width:100% !important;}
+        .flex{display:block !important; width:100% !important;}
+        .hide {
+          display:none !important;
+          width:0 !important;
+          height:0 !important;
+          padding:0 !important;
+          font-size:0 !important;
+          line-height:0 !important;
+        }
+        .flexible {
+          width: 100% !important;
+        }
+        .promo-area,
+        .pic-holder {
+          padding-bottom: 24px !important;
+        }
+        .promo-text {
+          width: 270px !important;
+          float: none !important;
+          margin: 0 auto !important;
+        }
+        .promo-text td.text {
+          height: 32px !important;
+          text-align: center !important;
+          font-size: 16px !important;
+          line-height: 20px !important;
+          padding-top: 4px !important;
+          padding-bottom: 4px !important;
+        }
+      }
+    @media screen {
+      
+      /* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/sTdaA6j0Psb920Vjv-mrzH-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/uYECMKoHcO9x1wdmbyHIm3-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/tnj4SB6DNbdaQnsM8CFqBX-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/_VYFx-s824kXq_Ul2BHqYH-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/NJ4vxlgWwWbEsv18dAhqnn-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/Ks_cVxiCiwUWVsFWFA3Bjn-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/oMMgfZMQthOryQo9n22dcuvvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+      
+    }
+    </style>
+     <!--[if !mso|(IE)]><!-->
+   <style>
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+</style>
+  </head>
+  <body bgcolor="#F8F9F9" text="#808080" style="background-color : #F8F9F9; font-family : arial,helvetica,sans-serif; font-size : 16px; color : #808080; line-height : 1; padding-top : 20px; padding-right : 20px; padding-bottom : 20px; padding-left : 20px; " yahoo="fix"><style type="text/css">
+div.preheader 
+{ display: none !important; } 
+</style>
+<div class="preheader" style="font-size: 1px; display: none !important;">Work. Play. Train. Recover. LISTEN.</div>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+      <tr>
+        <td align="center" valign="top">
+           
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table class="flexible" width="1420" cellpadding="0" cellspacing="0" align="center" style="margin: 0 auto; width: 100% !important; max-width: 1420px;">
+            <tr>
+              <td>
+                <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="slot-styling"><tr><td style="padding-bottom: 20px; " class="slot-styling camarker-inner"></td></tr></table>
+                
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table cellspacing="0" cellpadding="0" border="0" width="600" class="container" align="center" style="margin: 0 auto;">
+              <tr>
+                <td>
+                  <!-- added the border style here -->
+                  <table class="tb_properties border_style" cellspacing="0" cellpadding="0" style="background-color : transparent;font-size : 16px; font-family : arial,helvetica,sans-serif; line-height : 1; color : #808080; " bgcolor="transparent" width="100%">
+                    <!-- end of comment -->
+                    <tr>
+                      <td align="center" valign="top">
+                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                          <tr>
+                            <!-- added padding here -->
+                            <td class="content_padding" style="padding:10px;">
+                              <!-- end of comment -->
+                              <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                  <td align="left" class="" valign="top">
+                                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="slot-styling"><tr><td style="padding-top: 10px; padding-bottom: 10px; " class="slot-styling camarker-inner"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-bottom: 10px; " class="stylingblock-content-wrapper camarker-inner"><div style="text-align: center;"><a  =""=""  href="http://click.email.athlinks.com/?qs=83c116b62cb7a5400aaa1650f8340e6c5bcfb3c19df3dbbb5b6aa75822e181a6e04aba3e823693ed5a8df166316bbcb3e46de309efd449c9" style="font-family:roboto,Arial,Helvetica,sans-serif;font-size: 12px;color:#16A9E1;text-decoration:none;" title="">READ THE BLOG&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</a>
+<a href="http://click.email.athlinks.com/?qs=83c116b62cb7a5408790ae9617861656e1f8bf3b9b447b304296dcdc9731594505c028c8f08da483d76cbef3dc87997f3b8b59123faba822" style="font-family:Roboto,Arial,Helvetica,sans-serif;font-size:12px;color:#16A9E1;text-decoration:none;">FIND A RACE&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</a>
+<a href="http://click.email.athlinks.com/?qs=32043f00f48a8e96625c20958853757b6c23cd01e91ce7e72e4dd20ea9569c11ebcd93a054fee3d5bac3e0b3d2c99691f7e06160ff81442e045f6d4d191818ae" style="font-family:Roboto,Arial,Helvetica,sans-serif;font-size:12px;color:#16A9E1;text-decoration:none;">CLAIM RESULTS</a></div><table style="background-color: #ffffff;" class="deviceWidth" cellspacing="0" cellpadding="0" border="0">
+       <tr>
+         <td style="padding:0px 0">
+         <table class="deviceWidth" width="80%" border="0" align="center">
+           <tr>
+           <td>
+             </td></tr>
+           
+           </table></td>
+
+</tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 20px 0px 10px; " class="stylingblock-content-wrapper camarker-inner"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><a href="http://click.email.athlinks.com/?qs=83c116b62cb7a5404992ac76b8adff2974d468c212aa63dd5b028209e8d0ac56a163720f7d5ba600fc95b31f65c2ce7dde99f8c762661d42" title=""   data-linkto="https://"><img data-assetid="162442" src="http://image.email.athlinks.com/lib/fe9b12747464047475/m/2/9b345ba1-fd69-4a14-ae35-0f0b1e8ebe7b.png" alt="The Athlinks Podcast logo" height="178" width="350" style="display: block; padding: 0px; text-align: center; height: 178px; width: 350px; border: 0px none transparent;"></a></td></tr></table></td></tr>
+</table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: #FFFFFF; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 10px; " class="stylingblock-content-wrapper camarker-inner"><div style="text-align: center;">
+</div><div style="text-align: justify;">
+	<span style="font-family:Roboto, Arial, Helvetica, sans-serif;"><font color="#595959"><span style="font-size: 18px; line-height:28px;">Hey, are you looking for something new to listen to on your next long run or ride? Us too! With races being sidelined, we&nbsp;realized how much we miss talking about them - the long hours training, the pre-race jitters, and the glory...oh, that sweet, sweet glory.<br>
+	<br>
+	But wait! We don&rsquo;t need races to talk about racing - we can have those conversations right now...so we decided to <b><a   data-linkto="https://" href="http://click.email.athlinks.com/?qs=83c116b62cb7a540657ea36f40c44569112b06743ffa1b7fcd310009bb18715cbb4ca4cde6559f0a129f78e368dd988ca3295eb7c83b2695" style="color:#16A9E1;text-decoration:none;" title="LAUNCH A PODCAST">LAUNCH A PODCAST</a></b>!<br>
+	<br>
+	Each show will be a 60 to 90 minute interview with some of the millions of athletes who have been crossing finish lines around the world - telling the stories behind the steps, the pedals, and the swim strokes. The blood sweat and tears, the successes and failures of finishing, balancing work and life while training and racing. We're also going to be talking with event organizers and other folks who make the products and services that we, as endurance athletes, love and rely on to accomplish our goals.<br>
+	<br>
+	We will be releasing new shows every Tuesday and Thursday with the occasional bonus show on Saturday morning and we already have our first 6&nbsp;episodes available today in your favorite podcast apps.</span></font></span></div><div style="text-align: center;">
+	<br>
+	<span style="font-family:Roboto, Arial, Helvetica, sans-serif;"><font color="#595959"><span style="font-size: 18px; line-height:28px;"><b>Show Your Support:</b> </span></font></span></div><ul>
+	<li>
+		<span style="font-family:Roboto, Arial, Helvetica, sans-serif;"><font color="#595959"><span style="font-size: 18px; line-height:28px;"><b><a   data-linkto="https://" href="http://click.email.athlinks.com/?qs=83c116b62cb7a54040a4e60d0c4a45976152e63b84ef0d6cce5083b85799e7211ef8f99092a1fd53b2a0fd98128c050ab0f668a8c29951b7" style="color:#16A9E1;text-decoration:none;" title="LISTEN">LISTEN</a></b> to The Athlinks Podcast</span></font></span></li><li>
+		<span style="font-family:Roboto, Arial, Helvetica, sans-serif;"><font color="#595959"><span style="font-size: 18px; line-height:28px;"><span style="font-family:Roboto, Arial, Helvetica, sans-serif;"><font color="#595959"><span style="font-size: 18px; line-height:28px;"><b>SUBSCRIBE</b> on your favorite player</span></font></span></span></font></span></li><li>
+		<span style="font-family:Roboto, Arial, Helvetica, sans-serif;"><font color="#595959"><span style="font-size: 18px; line-height:28px;"><span style="font-family:Roboto, Arial, Helvetica, sans-serif;"><font color="#595959"><span style="font-size:18px"><span style="line-height:28px"><b>RATE</b>&nbsp;and <b>REVIEW</b>&nbsp;if you love it</span></span></font></span></span></font></span></li><li>
+		<span style="font-family:Roboto, Arial, Helvetica, sans-serif;"><font color="#595959"><span style="font-size: 18px; line-height:28px;"><span style="font-family:Roboto, Arial, Helvetica, sans-serif;"><font color="#595959"><span style="font-size: 18px; line-height:28px;"><b>SEND&nbsp;</b>guest ideas and suggestions to <a alias="podcast@athlinks.com" conversion="false" data-linkto="mailto:" href="mailto:podcast@athlinks.com?subject=Show%20Feedback" style="color:#16A9E1;text-decoration:none;" title="podcast@athlinks.com">podcast@athlinks.com</a></span></font></span></span></font></span></li><li>
+		<span style="font-family:Roboto, Arial, Helvetica, sans-serif;"><font color="#595959"><span style="font-size: 18px; line-height:28px;"><span style="font-family:Roboto, Arial, Helvetica, sans-serif;"><font color="#595959"><span style="font-size: 18px; line-height:28px;"><b><a   data-linkto="https://" href="http://click.email.athlinks.com/?qs=83c116b62cb7a5403778c6e6df80df03342fcbdff8634d24d23eda741856cb8b5fbd71d42c54563b67054bafbc8f696d01b952202fa1ffc6" style="color:#16A9E1;text-decoration:none;" title="SAVE">SAVE</a> </b>20% on <b>RUNGUM</b> with code <b>ATHLINKS20</b>!</span></font></span></span></font></span></li></ul><div style="text-align: justify;">
+</div></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><a href="http://click.email.athlinks.com/?qs=83c116b62cb7a540aa95757f75a897c6496c79453d78801c2bfed107537b353a8cae3c0001add0dad1a45ddf2a431d1ab6333c2b046ddc88" title=""   data-linkto="https://"><img data-assetid="162443" src="http://image.email.athlinks.com/lib/fe9b12747464047475/m/2/b3a8e441-26d6-4456-bf49-8367a3e3fcd3.png" alt="" height="247" width="580" style="display: block; padding: 0px; text-align: center; height: 247px; width: 580px; border: 0px;"></a></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper">
+<tr><td style="padding: 20px 15px 30px; " class="stylingblock-content-wrapper camarker-inner"><center>
+  <table width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+      <td>
+        <table width="100%" cellspacing="0" cellpadding="0">
+          <tr>
+            <td style="color:#ffffff; background: #16a9e1; font-family:Roboto,Arial,Helvetica,sans-serif;color:#16a9e1; font-size:16px; font-weight:300; text-transform:uppercase; letter-spacing:5px; line-height:24px; mso-padding-alt:15px 30px; border-radius: 3px;" valign="top" align="center">
+            <a href="http://click.email.athlinks.com/?qs=83c116b62cb7a540f8fc4a2aefd1e7054125b069fa6ef6321fa65630c007026944241946bbdc880d9cc85ba6c1f03baf2c388badacbdd3e9" target="_blank" style="color:#ffffff; text-decoration:none; display: block; padding: 15px 30px; border-radius:30px; text-align:center;">LISTEN TO THE EPISODES</a>
+           </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</center></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 10px; " class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td valign="top" class="responsive-td" style="width: 50%; padding-right: 3px;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: #FFFFFF; border: 1px solid #AEAEAE; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 10px; " class="stylingblock-content-wrapper camarker-inner"><div style="text-align: center;">
+	<a   data-linkto="https://" href="http://click.email.athlinks.com/?qs=83c116b62cb7a540a1513686e003c9639c439d31fd4e4eb0ba1a7840348ea2c759584b8b3b56c514c29ab533d2c6ea55e645990215367d88" title=""><img alt="" data-assetid="162432" height="250" src="http://image.email.athlinks.com/lib/fe9b12747464047475/m/2/27468bc7-63b3-48dc-95a5-bf16d14aac9b.png" style="padding: 0px; text-align: center; height: 250px; width: 250px; border: 0px;" width="250"></a><br>
+	&nbsp;</div><div style="text-align: center;">
+	<span style="font-size:18px;"><font color="#4a4a4a" style="font-family: Roboto, Arial, Helvetica, sans-serif;"><b>Episode 1: Todd Straka</b><br>
+	<i>@boulderrunner</i></font></span><br>
+	<br>
+	Listen in to Todd and Troy discuss everything from what it means to be a runner (AND event organizer) in the midst of a pandemic to being fast after 50.<br>
+	&nbsp;</div></td></tr></table></td><td valign="top" class="responsive-td" style="width: 50%; padding-left: 3px;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: #FFFFFF; border: 1px solid #AEAEAE; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 10px; " class="stylingblock-content-wrapper camarker-inner"><div style="text-align: center;">
+	<a   data-linkto="https://" href="http://click.email.athlinks.com/?qs=83c116b62cb7a54058ac99af845b8a9ba94e3fbc793bcf84904e52bc2a8932c2b6551114e5f3f6b14c315fa0d2f7864c4f43ba8217cd337f" title=""><img alt="" data-assetid="162433" height="250" src="http://image.email.athlinks.com/lib/fe9b12747464047475/m/2/da4485ea-10aa-4c9e-8493-3b7bd5da023f.png" style="padding: 0px; text-align: center; height: 250px; width: 250px; border: 0px;" width="250"></a><br>
+	&nbsp;</div><div style="text-align: center;">
+	<span style="font-size:18px;"><font color="#4a4a4a" style="font-family: Roboto, Arial, Helvetica, sans-serif;"><b>Episode 2: Frankie Ruiz</b><br>
+	<i>Miami Marathon</i></font></span><br>
+	<br>
+	Dig into&nbsp;Frankie's passion for all levels of running and how he's been bringing a healthier lifestyle to the city of Miami for 15+ years. #dontstop&nbsp;<br>
+	&nbsp;</div></td></tr></table></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 10px; " class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td valign="top" class="responsive-td" style="width: 50%; padding-right: 3px;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: #FFFFFF; border: 1px solid #AEAEAE; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 10px; " class="stylingblock-content-wrapper camarker-inner"><div style="text-align: center;">
+	<a   data-linkto="https://" href="http://click.email.athlinks.com/?qs=83c116b62cb7a540c5b8b6c4a067319e7dc1fb6183021d2fbafdb594b82bb7cfc63795b3a85af20e8e284e6681c2047de1c7a867eed111e7" title=""><img alt="" data-assetid="162436" height="250" src="http://image.email.athlinks.com/lib/fe9b12747464047475/m/2/68fe05db-397f-42a3-9142-2054ec70f51f.png" style="padding: 0px; text-align: center; height: 250px; width: 250px; border: 0px;" width="250"></a><br>
+	&nbsp;</div><div style="text-align: center;">
+	<span style="font-size:18px;"><font color="#4a4a4a" style="font-family: Roboto, Arial, Helvetica, sans-serif;"><b>Episode 3: Mike Milici</b><br>
+	<i>ChronoTrack</i></font></span><br>
+	<br>
+	Mike gives an inside look into the technology backing&nbsp;the race industry, how it's&nbsp;been affected by COVID, and his journey through setting a big race goal.<br>
+	&nbsp;</div></td></tr></table></td><td valign="top" class="responsive-td" style="width: 50%; padding-left: 3px;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: #FFFFFF; border: 1px solid #AEAEAE; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 10px; " class="stylingblock-content-wrapper camarker-inner"><div style="text-align: center;">
+	<a   data-linkto="https://" href="http://click.email.athlinks.com/?qs=83c116b62cb7a540f5a54922312df27e5efc19654a930aaad145f79a2765228a8f7765b9d0f583677b2f5ae796e56e250d1c5c72c0ecbc69" title=""><img alt="" data-assetid="162434" height="250" src="http://image.email.athlinks.com/lib/fe9b12747464047475/m/2/92c1bc3b-32dd-46a7-9355-dfb5aecba6f0.png" style="padding: 0px; text-align: center; height: 250px; width: 250px; border: 0px;" width="250"></a><br>
+	&nbsp;</div><div style="text-align: center;">
+	<span style="font-size:18px;"><font color="#4a4a4a" style="font-family: Roboto, Arial, Helvetica, sans-serif;"><b>Episode 4: Ted Kennedy</b><br>
+	<i>AchieveRacing</i></font></span><br>
+	<br>
+	Join our conversation with Ted about his role in the early days of Ironman and how he's since brought hundreds of executives together to cross epic finish lines around the world.</div></td></tr></table></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 10px; " class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td valign="top" class="responsive-td" style="width: 50%; padding-right: 3px;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: #FFFFFF; border: 1px solid #AEAEAE; min-width: 100%; " class="stylingblock-content-wrapper"><tr>
+<td style="padding: 10px; " class="stylingblock-content-wrapper camarker-inner"><div style="text-align: center;">
+	<a   data-linkto="https://" href="http://click.email.athlinks.com/?qs=83c116b62cb7a54063b18bab26fbd5793de2abbc3466cd973216b1183174f9ca9ba639cddee8b4bc322fb435d9edde3194b8a6851e5b09fe" title=""><img alt="" data-assetid="162437" height="250" src="http://image.email.athlinks.com/lib/fe9b12747464047475/m/2/7866daeb-2309-4d49-a538-07a7aa1ddb26.png" style="padding: 0px; text-align: center; height: 250px; width: 250px; border: 0px;" width="250"></a><br>
+	&nbsp;</div><div style="text-align: center;">
+	<span style="font-size:18px;"><font color="#4a4a4a" style="font-family: Roboto, Arial, Helvetica, sans-serif;"><b>Episode 5: The Saches</b><br>
+	<i>An Intentional Marriage </i>+<i> Goals</i></font></span><br>
+	<br>
+	Chris and Lindsey Sachs drop by to talk about their intentional marriage, goal setting as a family and how to balance it all when BOTH are 100-mile racing endurance athletes.<br>
+	&nbsp;</div></td></tr></table></td><td valign="top" class="responsive-td" style="width: 50%; padding-left: 3px;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: #FFFFFF; border: 1px solid #AEAEAE; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 10px; " class="stylingblock-content-wrapper camarker-inner"><div style="text-align: center;">
+	<a   data-linkto="https://" href="http://click.email.athlinks.com/?qs=83c116b62cb7a540ed5575a50b03c3de8cdc01316d99c40353d20419d92d1c073e81656aa53de387bcf46972b89acd2ba523d71776e96e24" title=""><img alt="" data-assetid="162430" height="250" src="http://image.email.athlinks.com/lib/fe9b12747464047475/m/2/94b32c58-0065-4777-a528-c3b8006a118b.png" style="padding: 0px; text-align: center; height: 250px; width: 250px; border: 0px;" width="250"></a><br>
+	&nbsp;</div><div style="text-align: center;">
+	<span style="font-size:18px;"><font color="#4a4a4a" style="font-family: Roboto, Arial, Helvetica, sans-serif;"><b>Episode 6: Nick Symmonds</b><br>
+	<i>2x Olympian &amp; RunGum</i></font></span><br>
+	<br>
+	Nick walks us through some of his racing memories, his thoughts on the supression of athlete rights and the need to pay amateur athletes, and his journey with RunGum.<br>
+	&nbsp;</div></td></tr></table></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 10px; " class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td valign="top" class="responsive-td" style="width: 50%; padding-right: 3px;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: #FFFFFF; border: 1px solid #AEAEAE; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 10px; " class="stylingblock-content-wrapper camarker-inner"><center>
+ <table border="0" cellpadding="0" cellspacing="0" width="100%">
+  
+   <tr>
+    <td>
+     <table cellpadding="0" cellspacing="0" width="100%">
+      
+       <tr>
+        <td align="center" style="color:#ffffff; background: #16a9e1; font-family:Roboto,Arial,Helvetica,sans-serif;color:#16a9e1; font-size:16px; font-weight:300; text-transform:uppercase; letter-spacing:5px; line-height:24px; mso-padding-alt:15px 30px; border-radius: 3px;" valign="top">
+         <span style="color:#ecf0f1;">COMING NOV 19</span></td></tr></table></td></tr></table><br>
+<img alt="" data-assetid="162431" height="250" src="http://image.email.athlinks.com/lib/fe9b12747464047475/m/2/fce0dfe0-0fbd-43ba-8f4c-0d42c57ed577.png" style="padding: 0px; text-align: center; height: 250px; width: 250px; border: 0px;" width="250"><div style="text-align: center;">
+ <br>
+ <span style="font-size:18px;"><font color="#4a4a4a"><font style="font-family: Roboto, Arial, Helvetica, sans-serif;"><b>Episode 7: Anthony Famiglietti</b><br>
+ <i>2x Olympian,<br>
+ RecklessRunning</i></font></font></span><br>
+ <br>
+ Catch up with Anthony Famiglietti - a two-time Olympian steeplechaser and founder of RecklessRunning (a really bad ass apparel company). You may also recognize him from a video that we posted back on December 5 of last year where, armed only with a pair of Sketchers and a Zwift powered treadmill, Anthony broke the four minute mile.<br>
+ &nbsp;</div></center></td></tr></table></td><td valign="top" class="responsive-td" style="width: 50%; padding-left: 3px;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: #FFFFFF; border: 1px solid #AEAEAE; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 10px; " class="stylingblock-content-wrapper camarker-inner"><center>
+	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+		
+			<tr>
+				<td>
+					<table cellpadding="0" cellspacing="0" width="100%">
+						
+							<tr>
+								<td align="center" style="color:#ffffff; background: #16a9e1; font-family:Roboto,Arial,Helvetica,sans-serif;color:#16a9e1; font-size:16px; font-weight:300; text-transform:uppercase; letter-spacing:5px; line-height:24px; mso-padding-alt:15px 30px; border-radius: 3px;" valign="top">
+									<span style="color:#ecf0f1;">COMING NOV 23</span></td></tr></table></td></tr></table><br>
+	<img alt="" data-assetid="162435" height="250" src="http://image.email.athlinks.com/lib/fe9b12747464047475/m/2/aca3d79d-65d2-4ee8-a89d-c8a6c1ddb43a.png" style="margin: auto; padding: 0px; text-align: center; height: 250px; width: 250px; border: 0px;" width="250"><div style="text-align: center;">
+		<br>
+		<span style="font-size:18px;"><font color="#4a4a4a"><font style="font-family: Roboto, Arial, Helvetica, sans-serif;"><b>Episode 8: Brian Hoover</b><br>
+		<i>111 Days Kayaking The Mississippi River</i></font></font></span><br>
+		<br>
+		Bonafide van-lifer, Pacific Crest Trail hiker, Mississippi River paddler. Learn how he structured his business around his ongoing, 3 year old journey into adventure living, escaping perceived death in a bayou sugarcane field, and how a boisterous boy from Oklahoma can own a life of purpose, adventure, and happiness.<br>
+		&nbsp;</div></center></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
+                                    
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="left" class="" valign="top">
+                                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 20px 15px 30px; " class="stylingblock-content-wrapper camarker-inner"><center>
+  <table width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+      <td>
+        <table width="100%" cellspacing="0" cellpadding="0">
+          <tr>
+            <td style="color:#ffffff; background: #16a9e1; font-family:Roboto,Arial,Helvetica,sans-serif;color:#16a9e1; font-size:16px; font-weight:300; text-transform:uppercase; letter-spacing:5px; line-height:24px; mso-padding-alt:15px 30px; border-radius: 3px;" valign="top" align="center">
+            <a href="http://click.email.athlinks.com/?qs=83c116b62cb7a540cb95a7d6e7d43a25be125a84392e87142a98fd3555d59cd36ca19607932592eb33d62104190b2876f13784e0d3e45185" target="_blank" style="color:#ffffff; text-decoration:none; display: block; padding: 15px 30px; border-radius:30px; text-align:center;">READ MORE FROM ATHLINKS</a>
+           </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</center></td></tr></table>
+                                    
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="left" class="" valign="top">
+                                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="slot-styling"><tr><td style="padding-top: 20px; " class="slot-styling camarker-inner"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 0px 0px 50px; " class="stylingblock-content-wrapper camarker-inner"><br><br><div style="text-align: center;"><span style="font-family:roboto; color:#16a9e1; font-size:11px;"><a href="http://view.email.athlinks.com/?qs=598a414ab01f8bc60be5a2bdd1a82ab574c1729cb4044c8530d0b71529884f9026a008ffdb62bca16d5e27476d631683e82b3e52b2057bc4442de32ab03dd44ef0699a026104a4fbd155e99ecf1a42f3" style="color:#16A9E1;text-decoration:none;">View in browser.</a></span></div></td></tr></table>
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: #F0F0F0; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner"><table style="background-color: #F8F9F9;" width="100%" cellspacing="0" cellpadding="0" border="0">
+ 
+  <tr>
+   <td class="content-wrapper" style="padding: 0px 0px 0px 0px;" align="center">
+    <table cellspacing="0" cellpadding="0" border="0">
+     
+      <tr>
+       <td style="width: 100px;" align="center">
+        <table cellspacing="0" cellpadding="0" border="0">
+         
+          <tr>
+           <td style="width: 48px; height: 48px; background-color: #084055; -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px;" valign="middle" align="center" height="48">
+            <a  href="http://click.email.athlinks.com/?qs=83c116b62cb7a5404e765b9ddddf02d7bcad7fbc51f83a3ca2180b441163032a8094be001468a7e8918c62349d8f0dffa290ec47b8990cca" style="" target="_blank" title="Twitter"><img alt="Twitter" src="http://image.email.athlinks.com/lib/fe9b12747464047475/m/1/9e9a861b-4a7a-43da-b172-2a90b6c6a15d.png" style="display: block; margin: 0; border: 0;" width="29"> </a></td></tr></table></td><td style="width: 100px;" align="center">
+        <table cellspacing="0" cellpadding="0" border="0">
+         
+          <tr>
+           <td style="width: 48px; height: 48px; background-color: #084055; -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px;" valign="middle" align="center" height="48">
+            <a  href="http://click.email.athlinks.com/?qs=83c116b62cb7a540139a289acd00ee3f27ac652daa829d7907e9b28be0205819d57dd2cf0a6b148f8a8f615723e45b14347748a6c3a51327" style="" target="_blank" title="Facebook"><img alt="Facebook" src="http://image.email.athlinks.com/lib/fe9b12747464047475/m/1/ca662070-f067-4c25-a877-15173522e3ab.png" style="display: block; margin: 0; border: 0;" width="16"> </a></td></tr></table></td><td style="width: 100px;" align="center">
+        <table cellspacing="0" cellpadding="0" border="0">
+         
+          <tr>
+           <td style="width: 48px; height: 48px; background-color: #084055; -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px;" valign="middle" align="center" height="48">
+            <a  href="http://click.email.athlinks.com/?qs=83c116b62cb7a540d28f324f50cae1086be3cb4245cd1c9e1f9ca1b10978c6620871f53e91b600d023f923d3fda9082609e62fbbb4d7179e" style="" target="_blank" title="Instagram"><img alt="Instagram" src="http://image.email.athlinks.com/lib/fe9b12747464047475/m/1/b843e454-8ea5-458f-a1ab-5e9811957816.png" style="display: block; margin: 0; border: 0;" width="31"> </a></td></tr></table></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner"><br><div style="text-align: center;"> <table width="100%" cellspacing="0" cellpadding="0" border="0">
+     <tr>
+      <td class="hidden" style="padding-left: 30px;" valign="top">
+      </td>
+      
+      </tr><tr><td class="drop-bottom" style="text-align:center; color:#4a4a4a;font-size:11px;line-height:18px;font-family:Roboto,Helvetica,Arial,sans-serif; padding-left:20px; padding-right:20px;" valign="top"><span class="applelinksgray">
+                         <strong>Athlinks®</strong><br>1795 Dogwood Street, Ste. 400, Louisville, CO 80027<br>
+                            ©2020 ATHLINKS. All rights reserved.</span>
+       <br>
+       <br>
+       
+                            <strong><a style="color:#16a9e1; text-decoration:none;" href="http://click.email.athlinks.com/?qs=83c116b62cb7a540cd83be83436268d1d90e5068cc6568b107e3811a114855c411b54efd2a90fc7061036b44ab6268788979074112cfd578" target="_blank"><span style="color: #16a9e1">Preferences</span></a></strong>&nbsp;|&nbsp;
+                            <strong><a style="color:#084055; text-decoration:none;" href="http://click.email.athlinks.com/?qs=83c116b62cb7a540774835b5f57b10aadb359e44f1fb17c60936c99cc0bf5f67d5a18d7d74add50d8f9a1a6e5b2c82a43adc3d4dd158c8fe" target="_blank"><span style="color: #16a9e1; text-decoration:none;">Privacy Policy</span></a></strong>&nbsp;|&nbsp;
+         <strong><a style="color:#084055; text-decoration:none;" href="http://click.email.athlinks.com/?qs=83c116b62cb7a54052cc164245cac45148883a5eff7744695f6d01f35052d7f644f538e507b7ed81d714be34fec0b28f4406bdf9a87d50b1" target="_blank"><span style="color: #16a9e1">Unsubscribe from Athlinks</span></a></strong>
+                            <br><br>
+                            
+        This email was sent to jana.cavnar@gmail.com by Athlinks®. <br>
+  Instantly <a style="color:#084055; text-decoration:none;" href="http://click.email.athlinks.com/unsub_center.aspx?qs=b708adda57dc07f1060ed1f08c5adfabd9cadc288920567bf43ac50aa9a596a84a9acde08e1b9c8d9916352e9810343953635db40764b2448fcffe5e670c3b09709cd375880cdbbd"><span style="color: #16a9e1;">unsubscribe</span></a>.
+                             <br><br>
+                             </td>
+   
+     </tr>
+     </table>
+                              </div>
+    
+   </td></tr></table></td></tr></table>
+                                    
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+           
+        </td>
+      </tr>
+    </table>
+    <img src="http://click.email.athlinks.com/open.aspx?ffcb10-fe601577746004757011-fdec157174600d74771c787d-fe9b12747464047475-ff61177573-fe211674746d017b721c74-ff65117070" width="1" height="1">
+  </body>
+</html>

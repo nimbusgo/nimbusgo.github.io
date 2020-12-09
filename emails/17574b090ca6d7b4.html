@@ -1,0 +1,509 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+      .fadein {
+        animation: fadein 2s;
+        -moz-animation: fadein 2s;
+        -webkit-animation: fadein 2s;
+        -o-animation: fadein 2s;
+      }
+      @keyframes fadein {
+          0% {opacity: 0;transform: translateY(-30px);}
+          50% {opacity: 0;transform: translateY(-30px);}
+          100% {opacity: 1;transform: translateY(0);}
+      }
+      @-moz-keyframes fadein {
+          0% {opacity: 0;transform: translateY(-30px);}
+          50% {opacity: 0;transform: translateY(-30px);}
+          100% {opacity: 1;transform: translateY(0);}
+      }
+      @-webkit-keyframes fadein {
+         0% {opacity: 0;transform: translateY(-30px);}
+         50% {opacity: 0;transform: translateY(-30px);}
+         100% {opacity: 1;transform: translateY(0);}
+      }
+      @-o-keyframes fadein {
+          0% {opacity: 0;transform: translateY(-30px);}
+          50% {opacity: 0;transform: translateY(-30px);}
+          100% {opacity: 1;transform: translateY(0);}
+      }
+      ReadMsgBody{
+        width: 100%;
+      }
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+        line-height: 100%;
+      }
+      body {
+        -webkit-text-size-adjust:100%;
+        -ms-text-size-adjust:100%;
+        margin:0 !important;
+      }
+      p {
+        margin: 1em 0;
+      }
+      table td {
+        border-collapse: collapse;
+      }
+      img {
+        outline:0;
+      }
+      a img {
+        border:none;
+      }
+      p {
+        margin: 1em 0;
+      }
+      @-ms-viewport{
+        width: device-width;
+      }
+      @media only screen and (max-width: 480px) {
+        body[yahoo] .container {
+          width:100% !important;
+        }
+        body[yahoo] .footer {
+          width:auto !important;
+          margin-left:0;
+        }
+        body[yahoo] .content-padding{
+          padding:4px !important;
+        }
+        body[yahoo] .mobile-hidden {
+          display:none !important;
+        }
+        body[yahoo] .logo {
+          display:block !important;
+          padding:0 !important;
+        }
+        body[yahoo] img {
+          max-width:100% !important;
+          height:auto !important;
+          max-height:auto !important;
+        }
+        body[yahoo] .header img{
+          max-width:100% !important;
+          height:auto !important;
+          max-height:auto !important;
+          margin: 0 auto;
+        }
+        body[yahoo] .photo img {
+          width:100% !important;
+          max-width:100% !important;
+          height:auto !important;
+        }
+        body[yahoo] .drop {
+          display:block !important;
+          width: 100% !important;
+          float:left;
+          clear:both;
+        }
+        body[yahoo] .footerlogo {
+          display:block !important;
+          width: 100% !important;
+          padding-top:15px;
+          float:left;
+          clear:both;
+        }
+        body[yahoo] .nav4, body[yahoo] .nav5, body[yahoo] .nav6 {
+          display: none !important;
+        }
+        body[yahoo] .tableBlock {
+          width:100% !important;
+        }
+        body[yahoo] .responsive-td {
+          width:100% !important;
+          float:left !important;
+          padding:0 !important;
+        }
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        /* MOBILE GLOBAL STYLES - DO NOT CHANGE */
+        body {
+          padding: 0px !important;
+          font-size: 16px !important;
+          line-height: 150% !important;
+        }
+        h1 {
+          font-size: 22px !important;
+          line-height: normal !important;
+        }
+        h2 {
+          font-size: 20px !important;
+          line-height: normal !important;
+        }
+        h3 {
+          font-size: 18px !important;
+          line-height: normal !important;
+        }
+        .buttonstyles {
+          font-family:arial,helvetica,sans-serif !important;
+          font-size: 16px !important;
+          color: #FFFFFF !important;
+          padding: 10px !important;
+        }
+      }
+      /* END OF MOBILE GLOBAL STYLES - DO NOT CHANGE */   
+      @media only screen and (max-width: 600px) {
+        td[class=m_3008798207356470876responsive-td] {
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+          display:block !important;
+          width:100% !important;
+        }
+        body[yahoo] .container {
+          width:100% !important;
+        }
+        body[yahoo] .mobile-hidden {
+          display:none !important;
+        }
+        body[yahoo] .logo {
+          display:block !important;
+          padding:0 !important;
+        }
+        body[yahoo] .photo img {
+          width:100% !important;
+          height:auto !important;
+        }
+        body[yahoo] .nav5, body[yahoo] .nav6 {
+          display: none !important;
+        }
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .img-wide{
+         width:100% !important;
+         height:auto !important;
+        }
+        .table-holder{display:table !important; width:100% !important;}
+        .tcap{display:table-caption !important; width:100% !important;}
+        .thead{display:table-header-group !important; width:100% !important;}
+        .trow{display:table-row !important; width:100% !important;}
+        .tfoot{display:table-footer-group !important; width:100% !important;}
+        .flex{display:block !important; width:100% !important;}
+        .hide {
+          display:none !important;
+          width:0 !important;
+          height:0 !important;
+          padding:0 !important;
+          font-size:0 !important;
+          line-height:0 !important;
+        }
+        .flexible {
+          width: 100% !important;
+        }
+        .promo-area,
+        .pic-holder {
+          padding-bottom: 24px !important;
+        }
+        .promo-text {
+          width: 270px !important;
+          float: none !important;
+          margin: 0 auto !important;
+        }
+        .promo-text td.text {
+          height: 32px !important;
+          text-align: center !important;
+          font-size: 16px !important;
+          line-height: 20px !important;
+          padding-top: 4px !important;
+          padding-bottom: 4px !important;
+        }
+      }
+    @media screen {
+      
+      /* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/sTdaA6j0Psb920Vjv-mrzH-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/uYECMKoHcO9x1wdmbyHIm3-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/tnj4SB6DNbdaQnsM8CFqBX-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/_VYFx-s824kXq_Ul2BHqYH-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/NJ4vxlgWwWbEsv18dAhqnn-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/Ks_cVxiCiwUWVsFWFA3Bjn-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/oMMgfZMQthOryQo9n22dcuvvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+      
+    }
+    </style>
+     <!--[if !mso|(IE)]><!-->
+   <style>
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+</style>
+  </head>
+  <body bgcolor="#F8F9F9" text="#808080" style="background-color : #F8F9F9; font-family : arial,helvetica,sans-serif; font-size : 16px; color : #808080; line-height : 1; padding-top : 20px; padding-right : 20px; padding-bottom : 20px; padding-left : 20px; " yahoo="fix"><style type="text/css">
+div.preheader 
+{ display: none !important; } 
+</style>
+<div class="preheader" style="font-size: 1px; display: none !important;">Work. Play. Train. Recover.</div>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+      <tr>
+        <td align="center" valign="top">
+           
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table class="flexible" width="1420" cellpadding="0" cellspacing="0" align="center" style="margin: 0 auto; width: 100% !important; max-width: 1420px;">
+            <tr>
+              <td>
+                <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="slot-styling"><tr><td style="padding-bottom: 20px; " class="slot-styling camarker-inner"></td></tr></table>
+                
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table cellspacing="0" cellpadding="0" border="0" width="600" class="container" align="center" style="margin: 0 auto;">
+              <tr>
+                <td>
+                  <!-- added the border style here -->
+                  <table class="tb_properties border_style" cellspacing="0" cellpadding="0" style="background-color : transparent;font-size : 16px; font-family : arial,helvetica,sans-serif; line-height : 1; color : #808080; " bgcolor="transparent" width="100%">
+                    <!-- end of comment -->
+                    <tr>
+                      <td align="center" valign="top">
+                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                          <tr>
+                            <!-- added padding here -->
+                            <td class="content_padding" style="padding:10px;">
+                              <!-- end of comment -->
+                              <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                  <td align="left" class="" valign="top">
+                                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="slot-styling"><tr><td style="padding-top: 10px; padding-bottom: 10px; " class="slot-styling camarker-inner"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding-bottom: 10px; " class="stylingblock-content-wrapper camarker-inner"><div style="text-align: center;"><a  =""=""  href="http://click.email.athlinks.com/?qs=a4c71563c7660b005e63f26c326bdb0fab1859ef44d4ee7e21fa4a8c029ef840870368001f8cc51925fc81a3b84103e3b152dec291a85e31" style="font-family:roboto,Arial,Helvetica,sans-serif;font-size: 12px;color:#16A9E1;text-decoration:none;" title="">READ THE BLOG&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</a>
+<a href="http://click.email.athlinks.com/?qs=a4c71563c7660b00b655d3d3d757c0c80715caf22118d5095e2dc418187c668b9a634066841ebddbc491fad767d79aa5878e45a93c481a11" style="font-family:Roboto,Arial,Helvetica,sans-serif;font-size:12px;color:#16A9E1;text-decoration:none;">FIND A RACE&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</a>
+<a href="http://click.email.athlinks.com/?qs=0a6775f023c4b3dfc675ee14c8ca0a2a21166e665f13ba77119ec72f65227c576028521a32d352dadf7567ab595711955f1ade0f20b5d3268cec09ff0b0f2dbc" style="font-family:Roboto,Arial,Helvetica,sans-serif;font-size:12px;color:#16A9E1;text-decoration:none;">CLAIM RESULTS</a></div><table style="background-color: #ffffff;" class="deviceWidth" cellspacing="0" cellpadding="0" border="0">
+       <tr>
+         <td style="padding:0px 0">
+         <table class="deviceWidth" width="80%" border="0" align="center">
+           <tr>
+           <td>
+             </td></tr>
+           
+           </table></td>
+
+</tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table width="100%" cellspacing="0" cellpadding="0"><tr><td align="center"><a href="http://click.email.athlinks.com/?qs=a4c71563c7660b002f736316bc427df98adfea2412a2a2ceb96f08eef961d1af509ab04e62b922c80e962a69685a8e2f0c04902376ba0557" title=""   data-linkto="https://"><img data-assetid="86091" src="http://image.email.athlinks.com/lib/fe9b12747464047475/m/1/aa5060e2-e639-4d98-bb47-3f1138a9a98d.png" height="37" width="170" style="display: block; padding: 10px 0px 0px; text-align: center; height: 37px; width: 170px; border: 0px;"></a></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr>
+<td style="padding: 20px 0px 10px; " class="stylingblock-content-wrapper camarker-inner"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><a href="http://click.email.athlinks.com/?qs=a4c71563c7660b00bed16946fe1614ba7d1e7ae8b83c83e1acf482a0be5ca9cf7e0ca4cb6667caeab8fce00167f5767c596adffd1f6b1c77" title="WSJ link"   data-linkto="http://"><img data-assetid="160695" src="http://image.email.athlinks.com/lib/fe9b12747464047475/m/2/5fb40b1e-1c85-4b20-8625-1b36a9a00726.jpg" alt="Graph with sudden downturn" height="319" width="590" style="display: block; padding: 0px; text-align: center; height: 319px; width: 590px; border: 0px none transparent;"></a></td></tr></table>
+</td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><div style="text-align: justify;">
+	<span style="font-family:Roboto, Arial, Helvetica, sans-serif;"><font color="#595959"><span style="font-size: 18px; line-height:28px;"><b>A Glass 5% Full</b><br>
+	<br>
+	Yesterday&nbsp;an Athlinks supported article ran in the <a   data-linkto="https://" href="http://click.email.athlinks.com/?qs=a4c71563c7660b000673f6bf60506225558b7506d4bc0551194e979a478d128a1996dc5c58e1e76b9b3e46e2dd3353ed2cb8af503ac66aa9" style="color:#16A9E1;text-decoration:none;" title="Wall Street Journal">Wall Street Journal</a> documenting the effects of the Coronavirus on the endurance racing industry. Through our analysis of the Athlinks results database, we found that event cancellations have led to a <b>95%</b>&nbsp;drop (94.77% to be exact)&nbsp;in timed athletes in the U.S. since March 15th. While this number does not include the bump from Virtual Races<i> </i>that we have seen since March </span><span style="font-size:18px"><span style="line-height:28px">(around 15-20%)</span></span>
+<span style="font-size: 18px; line-height:28px;">, it provides a valuable insight into the health of our industry.<br>
+	<br>
+	There are two ways to look at these stark statistics; either the glass is 95% empty or the glass is 5% full. Between January 1 and March 15, finisher counts in the U.S. <b>were actually up 3% over 2019 - the first year-over-year upward trend since 2012</b>. And, during COVID, the run and bike specialty industries have experienced unprecedented growth as a surging number of people, hungry for the mental and physical benefits that an active lifestyle provides, flock to their local run and bike shops. There has been no decline in demand - which is part of why I see the glass as 5% full, rather than 95% empty.<br>
+	<br>
+	And in the meantime, tens of thousands of event operators have been effectively shut down. Preparing for the inevitable return to racing, these professionals are regrouping, re-mapping race routes to factor in safety, social distancing and cost structures, race formats, etc.<br>
+	<br>
+	The art of putting on races is quite literally the alchemy of ideas. A race organizer brings their expertise and imagination to create experiences enjoyed by their participants. Other than lead time for permits and marketing, the &ldquo;where&rdquo;, &ldquo;when&rdquo; and &ldquo;how&rdquo; events can occur is only limited by one&rsquo;s imagination. The best way to ensure that your favorite events come back in the future is to offer your encouragement and support to those race organizers. Let them know that you will be there when they come back, ready to toe that start line &hellip; and bring a friend. Email them, text them, sign up for a virtual race they are organizing, reach out on social media - just take a few minutes to let your enthusiasm be felt.<br>
+	<br>
+	Happy Racing Everybody - Virtual or otherwise - Until next time.<br>
+	<br>
+	P.S. Running Insights Magazine also did a profile on Athlinks along this same topic.<br>
+	<a   data-linkto="https://" href="http://click.email.athlinks.com/?qs=a4c71563c7660b0019dfe267f6c8f33f0812a027ee943032239ad6488bc5be68f5bbc63f2275ec76e4fb3746d01931a23a0a7cb3fc5682c2" style="color:#16A9E1;text-decoration:none;" title="Check it out here">Check it out here</a></span></font></span></div></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 20px 10px 19px; " class="stylingblock-content-wrapper camarker-inner"><div style="line-height: 150%;">
+	<span style="font-size:15px;"><span style="color:#000000;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>Troy Busot&nbsp;</b><br>
+	<a href="http://click.email.athlinks.com/?qs=a4c71563c7660b00c1d3f1a8f693b863ef4e3ce7f74f11145b6659d789f3a63e7621a709a636c03f7e0d61c364e84c88e8ab757049fefbff" style="color:#16A9E1;text-decoration:none;">@troybusot</a><br>
+	<a href="http://click.email.athlinks.com/?qs=a4c71563c7660b000cdabe8b6a212b6a7cd6eb6bb2443b202e4e2ae2adb598532362ff17b81deeef38f6b5b46924577404c472edaef78cdb" style="color:#16A9E1;text-decoration:none;">My Athlinks Profile</a></span></span></span><span style="font-size:14px;"><span style="color:#000000;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp; &nbsp;</span></span></span></div><div style="text-align: center;">
+	<img data-assetid="124350" height="250" src="http://image.email.athlinks.com/lib/fe9b12747464047475/m/1/1bc894ed-de62-4073-bbd4-08a2dae87ff5.png" style="padding: 0px; text-align: center; height: 250px; width: 250px; border: 0px;" width="250"></div></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" class="stylingblock-content-wrapper" style="min-width: 100%; "><tr><td class="stylingblock-content-margin-cell" style="padding: 15px 0px 10px; "><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="border: 1px solid #E4E4E4; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner"><table style="width: 100%;" cellspacing="0" cellpadding="0"><tr><td><table style="width: 100%;" cellspacing="0" cellpadding="0"><tr><td class="responsive-td" style="width: 100%;" valign="top">
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><a href="http://click.email.athlinks.com/?qs=a4c71563c7660b004f5b61338392d85b3af17f452216f83120c5333984a77e552ee87024ec15410718194ebb67604bdbc570ae32078289f8" title=""   data-linkto="https://"><img data-assetid="160559" src="http://image.email.athlinks.com/lib/fe9b12747464047475/m/2/587f27d4-6322-4ebf-8b4e-57d974c75adf.jpg" alt="woman running against a white wall" height="265" width="580" style="display: block; height: 265px; width: 580px; text-align: center; padding: 0px;"></a></td></tr></table></td></tr></table>
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: #FFFFFF; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 20px 25px; " class="stylingblock-content-wrapper camarker-inner"><div style="text-align: left;">
+	<font color="#4a4a4a" style="font-family: Roboto, Arial, Helvetica, sans-serif;"><span style="font-size: 20px;">&quot;Movement clears my head and sets the tone for my entire day.&quot;</span></font><br>
+	<br>
+	<span style="line-height: 24px;"><font color="#9b9b9b" face="Roboto, Arial, Helvetica, sans-serif">On behalf of HOKA ONE ONE,&nbsp;</font><a   data-linkto="https://" href="http://click.email.athlinks.com/?qs=a4c71563c7660b00c591d89809e44a0bf31c029e629087eafdc9acc8bb87a2f4a5bad86d33720e55af821bd6ea280160a810eedad4628f9f" style="color: rgb(22, 169, 225); font-family: Roboto, Arial, Helvetica, sans-serif; font-size: 16px; text-decoration: none;" title="Read how Magda Boulet">read how Magda Boulet</a><font color="#9b9b9b" face="Roboto, Arial, Helvetica, sans-serif">&nbsp;uses movement as a mantra&nbsp;to stay motivated, focussed&nbsp;and connect with her community.</font></span></div></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" class="stylingblock-content-wrapper" style="min-width: 100%; "><tr>
+<td class="stylingblock-content-margin-cell" style="padding: 15px 0px 10px; "><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="border: 1px solid #E4E4E4; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner"><table style="width: 100%;" cellspacing="0" cellpadding="0"><tr><td><table style="width: 100%;" cellspacing="0" cellpadding="0"><tr><td class="responsive-td" style="width: 100%;" valign="top"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center">
+<a href="http://click.email.athlinks.com/?qs=a4c71563c7660b00b75619c111274976972cbc5dddb13fe2181968ba4bfe95bfd6c71c60bdf444d4d6da2cdeae7baa5518ceb11c0ce0bb68" title=""   data-linkto="https://"><img data-assetid="160560" src="http://image.email.athlinks.com/lib/fe9b12747464047475/m/2/5b1936d8-846e-4ec1-b8b6-596b373fab8e.png" alt="FitGiving Challenge logo" height="232" width="580" style="display: block; height: 232px; width: 580px; text-align: center; padding: 0px;"></a></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: #FFFFFF; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 20px 25px; " class="stylingblock-content-wrapper camarker-inner"><div style="text-align: left;">
+	<span style="font-family:Roboto, Arial, Helvetica, sans-serif;"><font color="#4a4a4a"><span style="font-size: 20px;">A 2020 Twist on&nbsp;a Holiday Tradition</span></font><br>
+	<br>
+	<span style="font-size:16px; line-height: 24px; font-family:Roboto, Arial, Helvetica, sans-serif;"><span style="color:#9B9B9B;">Let&rsquo;s be real, this year has been a battle for many. The year 2020 will probably be its own chapter in future history books. With a year as chaotic as this, we all need a little positivity in our lives.&nbsp;<br>
+	&nbsp;<br>
+	To help bring some light into the world, we present to you: The Life Time FitGiving Challenge presented by Invisalign, kicking off November 1, 2020. Complete daily active challenges while spreading positivity, giving back to your community and being thankful &mdash; all culminating in our virtual Turkey Day 5K.&nbsp;<br>
+	<br>
+	<a   data-linkto="https://" href="http://click.email.athlinks.com/?qs=a4c71563c7660b00a09e37550d62fa4bc7d8b67ad0daa909d248d54b17080b7c1d1218324b10feab794fae32a5aad9a6ac96266993015b0a" style="color:#16A9E1;text-decoration:none;" title="Learn More or Register Now">Learn More or Register Now</a></span></span></span></div></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
+                                    
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="left" class="" valign="top">
+                                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 20px 15px 30px; " class="stylingblock-content-wrapper camarker-inner"><center>
+  <table width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+      <td>
+        <table width="100%" cellspacing="0" cellpadding="0">
+          <tr>
+            <td style="color:#ffffff; background: #16a9e1; font-family:Roboto,Arial,Helvetica,sans-serif;color:#16a9e1; font-size:16px; font-weight:300; text-transform:uppercase; letter-spacing:5px; line-height:24px; mso-padding-alt:15px 30px; border-radius: 3px;" valign="top" align="center">
+            <a href="http://click.email.athlinks.com/?qs=a4c71563c7660b00e24bb4d98658a578bd6cd6c27116b97279f16491a370f4a0659fdfb4518cd34090f8696bc61393fee492a29ff13e212c" target="_blank" style="color:#ffffff; text-decoration:none; display: block; padding: 15px 30px; border-radius:30px; text-align:center;">READ MORE FROM ATHLINKS</a>
+           </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</center></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" class="stylingblock-content-wrapper" style="min-width: 100%; "><tr><td class="stylingblock-content-margin-cell" style="padding: 10px 0px 0px; "><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: #FFFFFF; border: 1px solid #E4E4E4; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 15px 10px 10px; " class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td valign="top" class="responsive-td" style="width: 50%; padding-right: 5px;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+<table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><a href="http://click.email.athlinks.com/?qs=a4c71563c7660b00d83fd7ab0a3472b1db77fda65f19c1af513473fca17b0e183306e7c2c7cdb087b641241281ef0071a75ce3f8aca7ee2d" title=""   data-linkto="https://"><img data-assetid="157697" src="http://image.email.athlinks.com/lib/fe9b12747464047475/m/2/96bd7f5d-52a6-41f3-b827-22ac9fbcfa8c.jpg" alt="meal overhead shot" height="160" width="280" style="display: block; padding: 0px 0px 10px; text-align: center; height: 160px; width: 280px; border: 0px;"></a></td></tr></table></td></tr></table></td>
+<td valign="top" class="responsive-td" style="width: 50%; padding-left: 5px;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 5px 5px 0px 10px; " class="stylingblock-content-wrapper camarker-inner"><div style="text-align: left;">
+ <span style="font-family:Roboto, Arial, Helvetica, sans-serif;"><span style="font-size:17px; line-height:20px;"><span style="color:#4A4A4A;">Dinner by Home Chef</span></span><br>
+ <br>
+ <font color="#9b9b9b"><span style="font-family:Roboto, Arial, Helvetica, sans-serif;"><span style="font-size:16px; line-height:24px;">Get fresh, pre-portioned ingredients directly to your door with easy-to-follow recipes to fit your schedule!</span></span></font><br>
+ <br>
+ <span style="font-size:16px;line-height: 24px; font-family:Roboto, Arial, Helvetica, sans-serif;"><a   data-linkto="https://" href="http://click.email.athlinks.com/?qs=a4c71563c7660b00d83fd7ab0a3472b1db77fda65f19c1af513473fca17b0e183306e7c2c7cdb087b641241281ef0071a75ce3f8aca7ee2d" style="color:#16A9E1;text-decoration:none;" title="">Use code ATHLINKS for 50% off!</a></span></span></div></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" class="stylingblock-content-wrapper" style="min-width: 100%; "><tr><td class="stylingblock-content-margin-cell" style="padding: 10px 0px 0px; "><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: #FFFFFF; border: 1px solid #E4E4E4; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 15px 10px 10px; " class="stylingblock-content-wrapper camarker-inner">
+<table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td valign="top" class="responsive-td" style="width: 50%; padding-right: 5px;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="center"><a href="http://click.email.athlinks.com/?qs=a4c71563c7660b00798058eb51ee9d6f73de947ce7b95e6f7e4c033ee825f0aaae5a27235f4d726849e04d8c75f456d5a29320b2e319cf0e" title=""   data-linkto="http://">
+<img data-assetid="157688" src="http://image.email.athlinks.com/lib/fe9b12747464047475/m/2/43af72e6-b6e2-41ba-80f6-08ba99735835.png" alt="woman smiling" height="160" width="280" style="display: block; padding: 0px 0px 10px; text-align: center; height: 160px; width: 280px; border: 0px;"></a></td></tr></table></td></tr></table></td>
+<td valign="top" class="responsive-td" style="width: 50%; padding-left: 5px;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 5px 5px 0px 10px; " class="stylingblock-content-wrapper camarker-inner"><div style="text-align: left;">
+	<span style="font-family:Roboto, Arial, Helvetica, sans-serif;"><span style="font-size:17px; line-height:20px;"><span style="color:#4A4A4A;">The smile you want, the way you want.</span></span><br>
+	<br>
+	<font color="#9b9b9b"><span style="font-family:Roboto, Arial, Helvetica, sans-serif;"><span style="font-size:16px; line-height:24px;">Whether your case is simple of complex, reach your smile goals with Invisalign&reg; clear aligners.</span></span></font><br>
+	<br>
+	<span style="font-size:16px;line-height: 24px; font-family:Roboto, Arial, Helvetica, sans-serif;"><a   data-linkto="https://" href="http://click.email.athlinks.com/?qs=a4c71563c7660b00798058eb51ee9d6f73de947ce7b95e6f7e4c033ee825f0aaae5a27235f4d726849e04d8c75f456d5a29320b2e319cf0e" style="color:#16A9E1;text-decoration:none;" title="">Take your Smile Assessment</a></span></span></div></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" class="stylingblock-content-wrapper" style="min-width: 100%; "><tr><td class="stylingblock-content-margin-cell" style="padding: 10px 0px 0px; "><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: #FFFFFF; border: 1px solid #E4E4E4; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 15px 10px 10px; " class="stylingblock-content-wrapper camarker-inner">
+<table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td valign="top" class="responsive-td" style="width: 50%; padding-right: 5px;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table width="100%" cellspacing="0" cellpadding="0"><tr><td align="center"><a href="http://click.email.athlinks.com/?qs=a4c71563c7660b00434381c35bb26edc53a71877fbedbcf91257807809fa7111eab3baadca620d644f8a761b1f9b031b63a442283ebf13a0" title=""   data-linkto="https://"><img data-assetid="126821" src="http://image.email.athlinks.com/lib/fe9b12747464047475/m/1/93f0ffa9-cd4b-4545-8606-9a2916253f45.jpg" alt="20%off CBD" height="174" width="280" style="display: block; padding: 0px 0px 10px; text-align: center; height: 174px; width: 280px; border: 0px;"></a></td></tr>
+</table></td></tr></table></td>
+<td valign="top" class="responsive-td" style="width: 50%; padding-left: 5px;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 5px 5px 0px 10px; " class="stylingblock-content-wrapper camarker-inner"><div style="text-align: left;">
+	<span style="font-family:Roboto, Arial, Helvetica, sans-serif;"><span style="font-size:17px; line-height:20px;"><span style="color:#4A4A4A;">Finish Strong with cbdMD</span></span><br>
+	<br>
+	<font color="#9b9b9b"><span style="font-family:Roboto, Arial, Helvetica, sans-serif;"><span style="font-size:16px; line-height:24px;">Gear up and get ready for the tough race ahead with the superior selection of CBD products from cbdMD and Life Time.</span></span></font><br>
+	<br>
+	<span style="font-size:16px;line-height: 24px; font-family:Roboto, Arial, Helvetica, sans-serif;"><a   data-linkto="https://" href="http://click.email.athlinks.com/?qs=a4c71563c7660b00434381c35bb26edc53a71877fbedbcf91257807809fa7111eab3baadca620d644f8a761b1f9b031b63a442283ebf13a0" style="color:#16A9E1;text-decoration:none;" title="">Take 20% off with&nbsp;code CBDLIFE</a></span></span></div></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
+                                    
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="left" class="" valign="top">
+                                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="slot-styling"><tr><td style="padding-top: 20px; " class="slot-styling camarker-inner"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 0px 0px 50px; " class="stylingblock-content-wrapper camarker-inner"><br><br><div style="text-align: center;"><span style="font-family:roboto; color:#16a9e1; font-size:11px;"><a href="http://view.email.athlinks.com/?qs=48d635581a20dddfe723ce807ac2b47c3fbed55887c51b9b6c6d50f0d9580b2077ec9bc4e8556e5a370fd7115d261179b64ad2d951421c15ff25ac490d3debb0481aea4d34f5346aab37951020fcba7b236bd012821af821" style="color:#16A9E1;text-decoration:none;">View in browser.</a></span></div></td></tr></table>
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: #F0F0F0; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner"><table style="background-color: #F8F9F9;" width="100%" cellspacing="0" cellpadding="0" border="0">
+ 
+  <tr>
+   <td class="content-wrapper" style="padding: 0px 0px 0px 0px;" align="center">
+    <table cellspacing="0" cellpadding="0" border="0">
+     
+      <tr>
+       <td style="width: 100px;" align="center">
+        <table cellspacing="0" cellpadding="0" border="0">
+         
+          <tr>
+           <td style="width: 48px; height: 48px; background-color: #084055; -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px;" valign="middle" align="center" height="48">
+            <a  href="http://click.email.athlinks.com/?qs=a4c71563c7660b006b936ccf9c5fa3ffe2624da1bea6a36fcd9a14404a06cbd71bac2d09eca733eb42d46ad9209ae194c87117646da2877b" style="" target="_blank" title="Twitter"><img alt="Twitter" src="http://image.email.athlinks.com/lib/fe9b12747464047475/m/1/9e9a861b-4a7a-43da-b172-2a90b6c6a15d.png" style="display: block; margin: 0; border: 0;" width="29"> </a></td></tr></table></td><td style="width: 100px;" align="center">
+        <table cellspacing="0" cellpadding="0" border="0">
+         
+          <tr>
+           <td style="width: 48px; height: 48px; background-color: #084055; -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px;" valign="middle" align="center" height="48">
+            <a  href="http://click.email.athlinks.com/?qs=a4c71563c7660b002c2126994850a052ec1b2a457338ee8e48c43b29683aa13a7c397f1b87a6232b0ece0ee8c75618869f3374461fe1549b" style="" target="_blank" title="Facebook"><img alt="Facebook" src="http://image.email.athlinks.com/lib/fe9b12747464047475/m/1/ca662070-f067-4c25-a877-15173522e3ab.png" style="display: block; margin: 0; border: 0;" width="16"> </a></td></tr></table></td><td style="width: 100px;" align="center">
+        <table cellspacing="0" cellpadding="0" border="0">
+         
+          <tr>
+           <td style="width: 48px; height: 48px; background-color: #084055; -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px;" valign="middle" align="center" height="48">
+            <a  href="http://click.email.athlinks.com/?qs=a4c71563c7660b0018c03f439412706eeef6839a53cfce614bc5c008ac21605055dee601b02c6842ce0795a16178ca034853d4eff1ad68d9" style="" target="_blank" title="Instagram"><img alt="Instagram" src="http://image.email.athlinks.com/lib/fe9b12747464047475/m/1/b843e454-8ea5-458f-a1ab-5e9811957816.png" style="display: block; margin: 0; border: 0;" width="31"> </a></td></tr></table></td></tr></table></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner"><br><div style="text-align: center;"> <table width="100%" cellspacing="0" cellpadding="0" border="0">
+     <tr>
+      <td class="hidden" style="padding-left: 30px;" valign="top">
+      </td>
+      
+      </tr><tr><td class="drop-bottom" style="text-align:center; color:#4a4a4a;font-size:11px;line-height:18px;font-family:Roboto,Helvetica,Arial,sans-serif; padding-left:20px; padding-right:20px;" valign="top"><span class="applelinksgray">
+                         <strong>Athlinks®</strong><br>1795 Dogwood Street, Ste. 400, Louisville, CO 80027<br>
+                            ©2020 ATHLINKS. All rights reserved.</span>
+       <br>
+       <br>
+       
+                            <strong><a style="color:#16a9e1; text-decoration:none;" href="http://click.email.athlinks.com/?qs=a4c71563c7660b00fe4c536601d1fc9b5fecf7f16cedc2884d71ffaea99213cb7597f0376fcda6b9c1f6a9177ba81bf47f8095c0d9b4122b" target="_blank"><span style="color: #16a9e1">Preferences</span></a></strong>&nbsp;|&nbsp;
+                            <strong><a style="color:#084055; text-decoration:none;" href="http://click.email.athlinks.com/?qs=a4c71563c7660b00d78981e4d9321e12a64b72e4ed7f52f5ada7cd99a98c9d4ae59f022ee176f9564ff79f2dc1358c00949417eec6bae274" target="_blank"><span style="color: #16a9e1; text-decoration:none;">Privacy Policy</span></a></strong>&nbsp;|&nbsp;
+         <strong><a style="color:#084055; text-decoration:none;" href="http://click.email.athlinks.com/?qs=a4c71563c7660b00ae147c2c1ef2f791a543044d0269ab67bbd1d9c01c9013188cf56548d404bfe9161d8d5ea11b8742ad34625ef17c6949" target="_blank"><span style="color: #16a9e1">Unsubscribe from Athlinks</span></a></strong>
+                            <br><br>
+                            
+        This email was sent to jana.cavnar@gmail.com by Athlinks®. <br>
+  Instantly <a style="color:#084055; text-decoration:none;" href="http://click.email.athlinks.com/unsub_center.aspx?qs=b708adda57dc07f16d98492ee562334f65a4a6cc75440055fc855a5b14e53f05bfc086e2a2dbd02dabac3d6361b1de81e504a2f0ee093c983fba19af6a672b11b935186891bfdd6a"><span style="color: #16a9e1;">unsubscribe</span></a>.
+                             <br><br>
+                             </td>
+   
+     </tr>
+     </table>
+                              </div>
+    
+   </td></tr></table></td></tr></table>
+                                    
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+           
+        </td>
+      </tr>
+    </table>
+    <img src="http://click.email.athlinks.com/open.aspx?ffcb10-fe591576726c047b7011-fdf0157174600d747617787d-fe9b12747464047475-ff001772776107-fe211674746d017b721c74-ff951373" width="1" height="1">
+  </body>
+</html>
